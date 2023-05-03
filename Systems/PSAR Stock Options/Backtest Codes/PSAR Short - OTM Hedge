@@ -1,10 +1,10 @@
 //1% transaction cost
 // ATM Delta
-//6x rage
-// CODE IS RIGHT
-// RUN ON 5MIN TIME FRAME - SHORT  -- ADD TO COMPOSITE
 
 #include <Expiry_dates.afl>
+leverage=3;
+
+
 //#pragma maxthreads 1
 //StaticVarRemove("*");
 
@@ -133,7 +133,6 @@ delta_strike=IIf(CEPE=="CE",ce_delta,pe_delta);
 
 
 
-leverage=3;
 
 newday = DateNum() != Ref(DateNum(),-1);
 tradelimit=1;
