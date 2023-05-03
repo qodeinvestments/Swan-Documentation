@@ -19,6 +19,11 @@ To capture the trend indicated by PSAR indicator.
 
 
 ## Optimisations:
+## PSAR on the Underlying equity - 
+- This backtest was originally performed on the underlying equity, where the equity was bought and sold depending on the PSAR.
+- This was optimised for 5min,15min,1hour and daily time frame and PSAR acc from 0.01 to 0.05 at an interval of 0.01.
+- Results - [PSAR on Equity](https://github.com/qodeinvestments/Swan-Documentation/tree/main/Systems/PSAR%20Stock%20Options/results/PSAR%20on%20equity)
+- Chose 15min and 0.02 ACC for further testing.
 ## 1. Long and Short optimisation - 
 - Tested going long and short the ATM option.
 - Long had negative to flat results, Short had positive results.
