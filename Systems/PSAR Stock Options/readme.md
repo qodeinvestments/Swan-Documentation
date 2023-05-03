@@ -48,7 +48,7 @@ To capture the trend indicated by PSAR indicator.
 - This did not add any value.
 
 ## TradeDelay=1 - Optimisations :
-# - Premium Filter
+### - Premium Filter
 - Premium should be greater than some percent of the equity.
 - Percent range - 0.1% - 1% with a step of 0.1%
 
