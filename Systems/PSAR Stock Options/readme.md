@@ -57,6 +57,8 @@ To capture the trend indicated by PSAR indicator.
 
 ![image](https://user-images.githubusercontent.com/111041920/235865623-88df411d-1fcd-4c51-80ba-6b45d4f821a5.png)
 
+Significant difference is visible above as position size was smaller
+
  
 ### 2. Number of Shares
 - Here, the available equity is multiplied with the leverage to get the Total available margin. We then divide this margin with the underlying equity value to get the Number of shares. 
