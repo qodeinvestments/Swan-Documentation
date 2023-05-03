@@ -51,6 +51,10 @@ To capture the trend indicated by PSAR indicator.
 ### - Premium Filter
 - Premium should be greater than some percent of the equity.
 - Percent range - 0.1% - 1% with a step of 0.1%
+### - Position Sizing - Min Premium, No of Shares 
+
+### - Leverage - 1x to 5x
+
 
 ## Position Sizing -
 ### 1. Minimum Premium
