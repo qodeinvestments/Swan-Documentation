@@ -36,7 +36,7 @@ To capture the trend indicated by PSAR indicator.
 - Tested on 1x and 3x leverage.
 
 ## 4. Hedging with Banknifty -
-- To protect from overnight risks, we tested going LONG on Banknifty ATM CE or PE (Depending on PSAR at EOD) at EOD and squaring it off at open.
+- To protect from overnight risks, we tested going LONG on ATM Call option of BankNifty if PSAR is above Underlying or ATM Put option of the same stock if PSAR is Below Underlying. and squaring it off at open.
 - This did not add any value.
 
 ## 4. Hedging with OTM option -
