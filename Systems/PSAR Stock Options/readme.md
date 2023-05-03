@@ -53,11 +53,13 @@ To capture the trend indicated by PSAR indicator.
      Minimum_Premium*percent_of_equity/Total_Premium.
 - This ratio is then multiplied with the number of units to get the final quantitity.
 - The main aim here is to not open exorbitantly high quantities for positions with very low premium.
+- Reduced Drawdown as well as returns.
 
  
 ### 2. Number of Shares
 - Here, the available equity is multiplied with the leverage to get the Total available margin. We then divide this margin with the underlying equity value to get the Number of shares. 
 
+- 
 
 
 
