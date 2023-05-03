@@ -30,7 +30,7 @@ To capture the trend indicated by PSAR indicator.
 
 ## 2. TimeFrame - 
 - Optimised for 5min, 15min, 30min, 1Hour.
-- 15min had optimal results.
+- 15min had optimal results, went ahead with it for further tests.
 
 ## 3. Leverage -
 - Tested on 1x and 3x leverage.
@@ -40,7 +40,7 @@ To capture the trend indicated by PSAR indicator.
 - This did not add any value.
 
 ## 4. Hedging with OTM option -
-- To protect from gap risks,  we tested going LONG on 10 Delta CE if PSAR is above Underlying or PE if PSAR is Below Underlying.
+- To protect from gap risks,  we tested going LONG on 10 Delta Call option of the same stock if PSAR is above Underlying or Put option of the same stock if PSAR is Below Underlying.
 - To maintain Short upside, short position sizing was increased by a multiple. This multiple was calculated by = (Short_Premium + Long_Premium)/ Short_Premium
 - Long position sizing will be the same as original short position size or (Short_premium/Multiple).
 - An average multiple of 1.2 was used.
