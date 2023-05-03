@@ -43,7 +43,9 @@ To capture the trend indicated by PSAR indicator.
 - To protect from gap risks,  we tested going LONG on 10 Delta CE if PSAR is above Underlying or PE if PSAR is Below Underlying.
 - To maintain Short upside, short position sizing was increased by a multiple. This multiple was calculated by = (Short_Premium + Long_Premium)/ Short_Premium
 - Long position sizing will be the same as original short position size or (Short_premium/Multiple).
+- An average multiple of 1.2 was used.
 - This did not add any value.
+
 
 ## Position Sizing -
 ### 1. Minimum Premium
