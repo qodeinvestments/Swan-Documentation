@@ -37,12 +37,13 @@ To capture the trend indicated by PSAR indicator.
 
 ## 4. Hedging with Banknifty -
 - To protect from overnight risks, we tested going LONG on Banknifty ATM CE or PE (Depending on PSAR at EOD) at EOD and squaring it off at open.
--
+- This did not add any value.
 
 ## 4. Hedging with OTM option -
 - To protect from gap risks,  we tested going LONG on 10 Delta CE if PSAR is above Underlying or PE if PSAR is Below Underlying.
 - To maintain Short upside, short position sizing was increased by a multiple. This multiple was calculated by = (Short_Premium + Long_Premium)/ Short_Premium
 - Long position sizing will be the same as original short position size or (Short_premium/Multiple).
+- This did not add any value.
 
 ## Position Sizing -
 ### 1. Minimum Premium
