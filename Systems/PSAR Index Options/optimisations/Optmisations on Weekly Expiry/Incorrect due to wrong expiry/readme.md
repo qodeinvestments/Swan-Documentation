@@ -1,1 +1,3 @@
-Incorrect backtests because of a trade taken on a wrong expiry day - 03/11/2021.
+- Incorrect backtests because of a trade taken on a wrong expiry day - 03/11/2021.
+- Incorrect Expiry - 04/11/2021
+- correct Expiry - 03/11/2021
