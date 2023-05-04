@@ -90,6 +90,7 @@ Significant difference is visible above as position size was smaller
 #### - Position Sizing - Min Premium, No of Shares, Percent of Equity.
 
 #### - Leverage - 1x to 5x
+- [Results](https://github.com/qodeinvestments/Swan-Documentation/tree/main/Systems/PSAR%20Stock%20Options/results/Optimisations%20done%20with%20trade%20delay%3D1/Optimizing%20leverage%20on%20all%20stocks)
 
 # PSAR on the Underlying equity - 
 - This backtest was originally performed on the underlying equity, where the equity was bought and sold depending on the PSAR.
