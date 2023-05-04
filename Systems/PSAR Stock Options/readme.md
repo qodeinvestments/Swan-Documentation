@@ -22,20 +22,22 @@ To capture the trend indicated by PSAR indicator.
 
 ## Optimisations:
 
-- With Trade Delay = 0.
+#### - With Trade Delay = 0.
 
 ### 1. Long and Short optimisation - 
 - Tested going long and short the ATM option.
 - Long had negative to flat results, Short had positive results.
 
-### 2. PSAR Acceleration - 
-- Optimized PSAR acc from 0.01 - 0.03, with an interval of 0.01.
-- We observed that for short, more volatile stock performed better at lower PSAR.
-- We chose to go ahead with 0.01 - 0.03 acc.
-
 ### 2. TimeFrame - 
 - Optimised for 5min, 15min, 30min, 1Hour.
 - 15min had optimal results, went ahead with it for further tests.
+
+### 3. PSAR Acceleration - 
+- Optimized PSAR acc from 0.01 - 0.03, with an interval of 0.01.
+- We observed that for short, more volatile stock performed better at lower PSAR.
+- We chose to go ahead with 0.01 - 0.03 acc.
+- [Results - Number of Shares](https://github.com/qodeinvestments/Swan-Documentation/tree/main/Systems/PSAR%20Stock%20Options/results/Number%20of%20Shares%2015%20min%200.01-0.03%20PSAR) - at 15min at 3x
+- [Results - Minimum Premium](https://github.com/qodeinvestments/Swan-Documentation/tree/main/Systems/PSAR%20Stock%20Options/results/MinPrem%2015%20min%200.01-0.03%20PSAR) - at 15min at 1x
 
 ### 3. Leverage -
 - Tested on 1x and 3x leverage.
