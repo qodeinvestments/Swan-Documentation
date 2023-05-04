@@ -43,7 +43,7 @@ To capture the trend indicated by PSAR indicator.
 ### 4. Hedging with Banknifty -
 - To protect from overnight risks, we tested going LONG on ATM Call option of BankNifty if PSAR is above Underlying or ATM Put option of the same stock if PSAR is Below Underlying. and squaring it off at open.
 - This did not add any value.
-- Performed only for HDFCBANK (2016 - 2022) -
+- Performed only on HDFCBANK (2016 - 2022) -
   results - XIRR= -9.15%, DD= -77.56%, CAR/MDD= -0.12.( Only PSAR Short result - XIRR= 5.29%, DD= -52.84%, CAR/MDD= 0.10).
 
 ### 5. Hedging with OTM option -
@@ -52,7 +52,7 @@ To capture the trend indicated by PSAR indicator.
 - Long position sizing will be the same as original short position size or (Short_premium/Multiple).
 - An average multiple of 1.2 was used, which was the average multiple calculated over 6 years.
 - This did not add any value.
-- Performed only for HDFCBANK (2016 - 2022), 
+- Performed only on HDFCBANK (2016 - 2022), 
 - results - XIRR= -8.03%, DD= -71.98%, CAR/MDD= -0.11 ( Only PSAR Short result - XIRR= 5.29%, DD= -52.84%, CAR/MDD= 0.10).
 
 
