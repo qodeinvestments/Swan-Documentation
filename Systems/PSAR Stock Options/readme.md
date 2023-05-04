@@ -85,10 +85,11 @@ Significant difference is visible above as position size was smaller
 - Premium should be greater than some percent of the equity.
 - Percent range - 0.1% - 1% with a step of 0.1%
 - Although Drawdown was reduced after adding a premium filter, No trend was observed in the filter range.
+- [Results](https://github.com/qodeinvestments/Swan-Documentation/tree/main/Systems/PSAR%20Stock%20Options/results/Optimisations%20done%20with%20trade%20delay%3D1/2.%20Optimizing%20Premium%20by%20Underlying%20Price)
+
 #### - Position Sizing - Min Premium, No of Shares, Percent of Equity.
 
 #### - Leverage - 1x to 5x
-[Results](https://github.com/qodeinvestments/Swan-Documentation/tree/main/Systems/PSAR%20Stock%20Options/results/Optimisations%20done%20with%20trade%20delay%3D1/2.%20Optimizing%20Premium%20by%20Underlying%20Price)
 
 # PSAR on the Underlying equity - 
 - This backtest was originally performed on the underlying equity, where the equity was bought and sold depending on the PSAR.
