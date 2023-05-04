@@ -19,7 +19,7 @@ To capture the trend indicated by PSAR indicator.
 
 
 ## Optimisations:
-
+Trade Delay = 0.
 ## 1. Long and Short optimisation - 
 - Tested going long and short the ATM option.
 - Long had negative to flat results, Short had positive results.
@@ -47,7 +47,7 @@ To capture the trend indicated by PSAR indicator.
 - An average multiple of 1.2 was used.
 - This did not add any value.
 
-## TradeDelay=1 - Optimisations :
+## Optimisations with TradeDelay=1 :
 ### - Premium Filter
 - Premium should be greater than some percent of the equity.
 - Percent range - 0.1% - 1% with a step of 0.1%
