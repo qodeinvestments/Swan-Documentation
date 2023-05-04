@@ -19,6 +19,7 @@ To capture the trend indicated by PSAR indicator.
 
 
 ## Optimisations:
+
 Trade Delay = 0.
 ## 1. Long and Short optimisation - 
 - Tested going long and short the ATM option.
