@@ -50,7 +50,9 @@ Trade Delay = 0.
 
 
 
-## Position Sizing -
+## Position Sizing 
+
+
 ### 1. Minimum Premium
 - Here, to calculate the minimum premium, Margin per Share is calculated by dividing the Underlying equity value by the leverage.
 - Margin per share is multiplied with the percent of equity to get the minimum premium.
