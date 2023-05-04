@@ -50,7 +50,7 @@ To capture the trend indicated by PSAR indicator.
 - To protect from gap risks,  we tested going LONG on 10 Delta Call option of the same stock if PSAR is above Underlying or Put option of the same stock if PSAR is Below Underlying.
 - To maintain Short upside, short position sizing was increased by a multiple. This multiple was calculated by = (Short_Premium + Long_Premium)/ Short_Premium
 - Long position sizing will be the same as original short position size or (Short_premium/Multiple).
-- An average multiple of 1.2 was used.
+- An average multiple of 1.2 was used, which was the average multiple calculated over 6 years.
 - This did not add any value.
 - Performed only for HDFCBANK (2016 - 2022), 
 - results - XIRR= -8.03%, DD= -71.98%, CAR/MDD= -0.11 ( Only PSAR Short result - XIRR= 5.29%, DD= -52.84%, CAR/MDD= 0.10).
