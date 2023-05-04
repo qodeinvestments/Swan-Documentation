@@ -82,6 +82,7 @@ Significant difference is visible above as position size was smaller
 ### - Premium Filter
 - Premium should be greater than some percent of the equity.
 - Percent range - 0.1% - 1% with a step of 0.1%
+- No trend was observed.
 ### - Position Sizing - Min Premium, No of Shares 
 
 ### - Leverage - 1x to 5x
