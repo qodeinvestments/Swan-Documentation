@@ -48,13 +48,6 @@ Trade Delay = 0.
 - An average multiple of 1.2 was used.
 - This did not add any value.
 
-## Optimisations with TradeDelay=1 :
-### - Premium Filter
-- Premium should be greater than some percent of the equity.
-- Percent range - 0.1% - 1% with a step of 0.1%
-### - Position Sizing - Min Premium, No of Shares 
-
-### - Leverage - 1x to 5x
 
 
 ## Position Sizing -
@@ -85,6 +78,13 @@ Significant difference is visible above as position size was smaller
 
 
 
+## Optimisations with TradeDelay=1 :
+### - Premium Filter
+- Premium should be greater than some percent of the equity.
+- Percent range - 0.1% - 1% with a step of 0.1%
+### - Position Sizing - Min Premium, No of Shares 
+
+### - Leverage - 1x to 5x
 
 # PSAR on the Underlying equity - 
 - This backtest was originally performed on the underlying equity, where the equity was bought and sold depending on the PSAR.
