@@ -4,6 +4,7 @@ The PSAR indicator forms a parabola composed of small dots that are either above
 The parabolic indicator generates buy or sell signals when the position of the dots moves from one side of the asset's price to the other.
 
 - If PSAR is ABOVE underlying price, we go short on the ATM CALL option and if PSAR is BELOW underlying price, we go short on the ATM PUT option.
+- This Backtest was initially performed on equity.
 
 ## Objective:
 To capture the trend indicated by PSAR indicator.
