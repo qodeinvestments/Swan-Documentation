@@ -43,7 +43,7 @@ To capture the trend indicated by PSAR indicator.
 - Tested on 1x and 3x leverage.
 
 ### 4. Hedging with Banknifty -
-- To protect from overnight risks, we tested going LONG on ATM Call option of BankNifty if PSAR is above Underlying or ATM Put option of the same stock if PSAR is Below Underlying. and squaring it off at open.
+- To protect from overnight risks, we tested going LONG on ATM Call option of BankNifty Monthly expiry if PSAR is above Underlying or ATM Put option of the same stock if PSAR is Below Underlying. and squaring it off at open.
 - This did not add any value.
 - Performed only on HDFCBANK (2016 - 2022) -
   results - XIRR= -9.15%, DD= -77.56%, CAR/MDD= -0.12.( Only PSAR Short result - XIRR= 5.29%, DD= -52.84%, CAR/MDD= 0.10).
