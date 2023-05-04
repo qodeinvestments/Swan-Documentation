@@ -1,7 +1,7 @@
 # PSAR
-The parabolic indicator generates buy or sell signals when the position of the dots moves from one side of the asset's price to the other. For example, a buy signal occurs when the dots move from above the price to below the price, while a sell signal occurs when the dots move from below the price to above the price.
 
 The PSAR indicator forms a parabola composed of small dots that are either above or below the trading price. When the parabola is below the stock price, it acts as a support and trail-stop area, while indicating bullish up trending price action. When the stock price falls below a single dot, then a stop-loss/sell /sell-short trigger forms.
+The parabolic indicator generates buy or sell signals when the position of the dots moves from one side of the asset's price to the other.
 
 - If PSAR is ABOVE underlying price, we go short on the ATM CALL option and if PSAR is BELOW underlying price, we go short on the ATM PUT option.
 
@@ -9,18 +9,20 @@ The PSAR indicator forms a parabola composed of small dots that are either above
 To capture the trend indicated by PSAR indicator.
 
 ## Backtest:
-- Trade Delay = 0
+- Performed with Trade Delay = 0 and 1.
 - Entry Signals: PSAR
 - Exit Signals: Change in direction of PSAR
 ### Data used:
-- 1 min options data for BankNifty Constituents since inception.
+- 1 min options data for BankNifty and it's Constituents since inception.
+- 1 min equity data for BankNifty and it's Constituents from 2011.
 - Expiry dates
 - Stock weights
 
 
 ## Optimisations:
 
-Trade Delay = 0.
+- With Trade Delay = 0.
+
 ### 1. Long and Short optimisation - 
 - Tested going long and short the ATM option.
 - Long had negative to flat results, Short had positive results.
@@ -78,9 +80,9 @@ Significant difference is visible above as position size was smaller
 
 
 
+-----
 
-
-# Optimisations with TradeDelay=1 :
+## Optimisations with TradeDelay=1 :
 #### - Premium Filter
 - Premium should be greater than some percent of the equity.
 - Percent range - 0.1% - 1% with a step of 0.1%
