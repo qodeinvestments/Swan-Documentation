@@ -21,27 +21,27 @@ To capture the trend indicated by PSAR indicator.
 ## Optimisations:
 
 Trade Delay = 0.
-## 1. Long and Short optimisation - 
+### 1. Long and Short optimisation - 
 - Tested going long and short the ATM option.
 - Long had negative to flat results, Short had positive results.
 
-## 2. PSAR Acceleration - 
+### 2. PSAR Acceleration - 
 - Optimized PSAR acc from 0.01 - 0.03, with an interval of 0.01.
 - We observed that for short, more volatile stock performed better at lower PSAR.
 - We chose to go ahead with 0.01 - 0.03 acc.
 
-## 2. TimeFrame - 
+### 2. TimeFrame - 
 - Optimised for 5min, 15min, 30min, 1Hour.
 - 15min had optimal results, went ahead with it for further tests.
 
-## 3. Leverage -
+### 3. Leverage -
 - Tested on 1x and 3x leverage.
 
-## 4. Hedging with Banknifty -
+### 4. Hedging with Banknifty -
 - To protect from overnight risks, we tested going LONG on ATM Call option of BankNifty if PSAR is above Underlying or ATM Put option of the same stock if PSAR is Below Underlying. and squaring it off at open.
 - This did not add any value.
 
-## 4. Hedging with OTM option -
+### 5. Hedging with OTM option -
 - To protect from gap risks,  we tested going LONG on 10 Delta Call option of the same stock if PSAR is above Underlying or Put option of the same stock if PSAR is Below Underlying.
 - To maintain Short upside, short position sizing was increased by a multiple. This multiple was calculated by = (Short_Premium + Long_Premium)/ Short_Premium
 - Long position sizing will be the same as original short position size or (Short_premium/Multiple).
