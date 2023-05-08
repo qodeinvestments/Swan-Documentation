@@ -49,6 +49,9 @@ ii) Trading next expiry on expiry evening only post 3.20(Change the position and
 ![image](https://user-images.githubusercontent.com/67407393/236747401-9caf4733-08b4-4c80-893a-cd4e27e8793b.png)
 
 
+##### Combined 5 Equity Curves:
+
+![image](https://user-images.githubusercontent.com/67407393/236748370-894a0332-c336-4345-ac47-7c6964cc3125.png)
 
 ###### Conclusion from Optimizations:
 
@@ -57,8 +60,42 @@ the system can fail. Hence we decided to run 5 systems ranging from 0.005 to 0.0
 
 Finally we concluded to run next expiry only after 3.20 in the evening. Since we want the option to expire worthless. We combined all the Equity curves 5 different curves.The result is in the table above. 
 
-##### Combined 5 Equity Curves:
+### ii) Nifty Weekly:
 
-![image](https://user-images.githubusercontent.com/67407393/236748370-894a0332-c336-4345-ac47-7c6964cc3125.png)
+
+Database: Taken from SQL: Banknifty Weekly Data 
+Time Period: 11-02-2019 to 30-11-2022
+
+Short Weekly Options						
+
+![image](https://user-images.githubusercontent.com/67407393/236762562-4b52ba86-66b7-471f-abe3-c2a2bb75499f.png)
+
+
+###### Conclusion:
+
+We ran similar optimizations for Nifty like for BN. THe only difference here was that the data is for a very tiny period. So we should not be taking the results with much seriousness. Overall the system seems to be working.
+
+After this we combined both Nifty Weekly and BankNifty Weekly 5 curves each to check the results:
+
+![image](https://user-images.githubusercontent.com/67407393/236764069-90cba61f-14e0-414f-84ac-530001bfd062.png)
+
+### iii) Nifty Monthly:
+
+##### Backtest:
+
+Simple Backtest:
+
+Time Period: 04-01-2011 to 30-11-2022
+ACC: 0.015
+ CAR	8.20%	
+ DD	-9.36%	
+ T/E	3.20%	
+
+![image](https://user-images.githubusercontent.com/67407393/236765345-88728bd6-ad82-4b4f-909a-9537e45c12e5.png)
+
+
+![image](https://user-images.githubusercontent.com/67407393/236765152-dc7c650a-098a-454a-ab6c-298251c664b6.png)
+
+
 
 
