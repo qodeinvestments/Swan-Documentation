@@ -101,5 +101,3 @@ to check the results. All the results are in the table below.
 
 ![image](https://user-images.githubusercontent.com/67407393/236765834-cb5b878c-58d8-4532-af92-a8e519f9e7fa.png)
 
-
-
