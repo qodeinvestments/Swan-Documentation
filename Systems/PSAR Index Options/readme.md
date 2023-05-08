@@ -38,8 +38,8 @@ Database: Taken from SQL: Banknifty Weekly Data
 Time Period: 01-06-2016 to 30-11-2022
 
 As shown in image, we have taken In sample and out sample periods for the analysis. Acceleration factor of 0.005 to 0.04.
+![image](https://user-images.githubusercontent.com/67407393/236748167-885b656d-f8d8-4020-b579-5ce429ac0b6b.png)
 
-![image](https://user-images.githubusercontent.com/67407393/236746592-9b3f0df1-3b47-4efd-9d93-90c63b5aad69.png)
 
 ###### Conclusion from Optimizations:
 
@@ -55,6 +55,8 @@ ii) Trading next expiry on expiry evening only post 3.20(Change the position and
 ![image](https://user-images.githubusercontent.com/67407393/236747401-9caf4733-08b4-4c80-893a-cd4e27e8793b.png)
 
 Finally we concluded to run next expiry only after 3.20 in the evening. Since we want the option to expire worthless. We combined all the Equity curves 5 different curves.The result is in the table above. 
+
+![image](https://user-images.githubusercontent.com/67407393/236748225-dc8bbec4-d356-445e-a7ad-73996682b269.png)
 
 
 
