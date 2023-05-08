@@ -24,9 +24,7 @@ iii) Nifty Monthly
 A simple Backtest taking 0.015 acc is shown below. Major returns are made in 2020 where VIX was very high.
 
 CAR: 22.40%
-
 MDD: -9.69%
-
 TE:  8.54%
 
 ![image](https://user-images.githubusercontent.com/67407393/236745165-ec368aa9-4672-444d-a501-9b2e92968d1d.png)
@@ -38,13 +36,9 @@ Database: Taken from SQL: Banknifty Weekly Data
 Time Period: 01-06-2016 to 30-11-2022
 
 As shown in image, we have taken In sample and out sample periods for the analysis. Acceleration factor of 0.005 to 0.04.
+
 ![image](https://user-images.githubusercontent.com/67407393/236748167-885b656d-f8d8-4020-b579-5ce429ac0b6b.png)
 
-
-###### Conclusion from Optimizations:
-
-As the Acceleration increases the number of trades go up. Due to which the Trading edge is reducing. It might be better to trader faster but due to Transaction costs
-the system can fail. Hence we decided to run 5 systems ranging from 0.005 to 0.025 with a step of 0.005. We have combined the equity curves and see the result as shown in the table above. 
 
 On Expiry day we tried running two variations: 
 
@@ -53,6 +47,13 @@ i) Trading next expiry on expiry day and
 ii) Trading next expiry on expiry evening only post 3.20(Change the position and buy a new position)
 
 ![image](https://user-images.githubusercontent.com/67407393/236747401-9caf4733-08b4-4c80-893a-cd4e27e8793b.png)
+
+
+
+###### Conclusion from Optimizations:
+
+As the Acceleration increases the number of trades go up. Due to which the Trading edge is reducing. It might be better to trade faster but due to Transaction costs
+the system can fail. Hence we decided to run 5 systems ranging from 0.005 to 0.025 with a step of 0.005. We have combined the equity curves and see the result as shown in the table above. 
 
 Finally we concluded to run next expiry only after 3.20 in the evening. Since we want the option to expire worthless. We combined all the Equity curves 5 different curves.The result is in the table above. 
 
