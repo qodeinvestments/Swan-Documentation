@@ -6,7 +6,7 @@ In a typical calendar spread, one would buy a longer-term contract and go short 
 ## Backtest:
 
 ### Data Used - 
-- Banknifty weekly and monthly, I,II,II,IV data.
+- Banknifty weekly - I,II,III,IV and monthly - I,II.
 - Expiry Dates.
 
 
@@ -53,6 +53,9 @@ In a typical calendar spread, one would buy a longer-term contract and go short 
 - Longer term contract with strike closest to a certain percentage of the shorter term contract was selected.
 - This Percentage ranged from 25% to 200%.
 - Performed for all combinations of calendar spreads.
+
+### 9. Contract Filter:
+- Backtest was performed again with a contract filter >=1000.
 
 ## Position Sizing:
 - Number of Shares.
