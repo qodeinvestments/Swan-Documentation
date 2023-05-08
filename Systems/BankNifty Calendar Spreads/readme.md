@@ -57,5 +57,8 @@ In a typical calendar spread, one would buy a longer-term contract and go short 
 ### 9. Contract Filter:
 - Backtest was performed again with a contract filter >=1000.
 
+### 10. Opening on each day of week:
+- Separate backtests were performed where Positions are opened on Each day of the week. 
+
 ## Position Sizing:
 - Number of Shares.
