@@ -1,4 +1,6 @@
 ## PSAR Index Options
+Updation Date: 30.11.2022 ( This was the last day of the Analysis)
+Done By: Rishabh Nahar
 
 The PSAR indicator forms a parabola composed of small dots that are either above or below the trading price. When the parabola is below the stock price, it acts as a support and trail-stop area, while indicating bullish up trending price action. When the stock price falls below a single dot, then a stop-loss/sell /sell-short trigger forms.
 The parabolic indicator generates buy or sell signals when the position of the dots moves from one side of the asset's price to the other.
@@ -87,15 +89,17 @@ Simple Backtest:
 
 Time Period: 04-01-2011 to 30-11-2022
 ACC: 0.015
- CAR	8.20%	
- DD	-9.36%	
- T/E	3.20%	
-
+ 
 ![image](https://user-images.githubusercontent.com/67407393/236765345-88728bd6-ad82-4b4f-909a-9537e45c12e5.png)
-
-
 ![image](https://user-images.githubusercontent.com/67407393/236765152-dc7c650a-098a-454a-ab6c-298251c664b6.png)
 
+
+##### Optimizations:
+
+We ran optimizations for the whole period as well as the period comparing it to the Weekly Data from 2019-22. We also combined all the Equity Curves
+to check the results. All the results are in the table below. 
+
+![image](https://user-images.githubusercontent.com/67407393/236765834-cb5b878c-58d8-4532-af92-a8e519f9e7fa.png)
 
 
 
