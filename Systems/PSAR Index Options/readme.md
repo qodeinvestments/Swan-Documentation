@@ -56,7 +56,8 @@ ii) Trading next expiry on expiry evening only post 3.20(Change the position and
 
 Finally we concluded to run next expiry only after 3.20 in the evening. Since we want the option to expire worthless. We combined all the Equity curves 5 different curves.The result is in the table above. 
 
-![image](https://user-images.githubusercontent.com/67407393/236748225-dc8bbec4-d356-445e-a7ad-73996682b269.png)
+##### Combined 5 Equity Curves:
 
+![image](https://user-images.githubusercontent.com/67407393/236748370-894a0332-c336-4345-ac47-7c6964cc3125.png)
 
 
