@@ -24,7 +24,9 @@ iii) Nifty Monthly
 A simple Backtest taking 0.015 acc is shown below. Major returns are made in 2020 where VIX was very high.
 
 CAR: 22.40%
+
 MDD: -9.69%
+
 TE:  8.54%
 
 ![image](https://user-images.githubusercontent.com/67407393/236745165-ec368aa9-4672-444d-a501-9b2e92968d1d.png)
