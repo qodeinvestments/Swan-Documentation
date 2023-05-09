@@ -62,7 +62,7 @@ the system can fail. Hence we decided to run 5 systems ranging from 0.005 to 0.0
 
 Finally we concluded to run next expiry only after 3.20 in the evening. Since we want the option to expire worthless. We combined all the Equity curves 5 different curves.The result is in the table above. 
 
-### ii) Nifty Weekly:
+### ii) [Nifty Weekly](https://github.com/qodeinvestments/Swan-Documentation/blob/66d298693f7d4dc6a36e76fa43f9f933295b2536/Systems/PSAR%20Index%20Options/optimisations/Optmisations%20on%20Weekly%20Expiry/Nifty_Weekly_psar_30.11.2022.xlsx):
 
 
 Database: Taken from SQL: Banknifty Weekly Data 
@@ -81,7 +81,7 @@ After this we combined both Nifty Weekly and BankNifty Weekly 5 curves each to c
 
 ![image](https://user-images.githubusercontent.com/67407393/236764069-90cba61f-14e0-414f-84ac-530001bfd062.png)
 
-### iii) Nifty Monthly:
+### iii) [Nifty Monthly](https://github.com/qodeinvestments/Swan-Documentation/blob/66d298693f7d4dc6a36e76fa43f9f933295b2536/Systems/PSAR%20Index%20Options/optimisations/Optmisations%20on%20Weekly%20Expiry/Nifty_Monthly_psar_30.11.2022.xlsx):
 
 ##### Backtest:
 
