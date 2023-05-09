@@ -19,7 +19,7 @@ iii) Nifty Monthly
 
 ### i) Banknifty Weekly:
 
-Excel Sheet: Link[Systems/PSAR Index Options/optimisations/Optmisations on Weekly Expiry/Banknifty_psar_30.11.2022.xlsx]
+Excel Sheet: [Link](Systems/PSAR Index Options/optimisations/Optmisations on Weekly Expiry/Banknifty_psar_30.11.2022.xlsx)
 
 ###### Backtest
 
