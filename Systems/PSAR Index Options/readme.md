@@ -17,7 +17,7 @@ iii) Nifty Monthly
 
 
 
-### i) Banknifty Weekly:
+### i) [Banknifty Weekly](https://github.com/qodeinvestments/Swan-Documentation/blob/a6c7fbe28fb11ad5d8bb64ca20017469ac0b0944/Systems/PSAR%20Index%20Options/optimisations/Optmisations%20on%20Weekly%20Expiry/Banknifty_psar_30.11.2022.xlsx):
 
 Excel Sheet: Link
 
