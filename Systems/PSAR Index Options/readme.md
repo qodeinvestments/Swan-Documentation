@@ -101,10 +101,20 @@ ACC: 0.015
 ![image](https://user-images.githubusercontent.com/67407393/236765152-dc7c650a-098a-454a-ab6c-298251c664b6.png)
 
 
-##### Optimizations:
+#### Optimizations:
 
 We ran optimizations for the whole period as well as the period comparing it to the Weekly Data from 2019-22. We also combined all the Equity Curves
 to check the results. All the results are in the table below. 
 
 ![image](https://user-images.githubusercontent.com/67407393/236765834-cb5b878c-58d8-4532-af92-a8e519f9e7fa.png)
+
+##### - Adding Banknifty Out of the money Protection:
+- Optimised from 1% to 5% out of the money.
+
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/111041920/42c0878b-bfc8-40eb-8767-6930e4c5028e)
+
+##### - Adding only Banknifty overnight Out of the money Protection:
+- Optimised from 1% to 5% out of the money.
+
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/111041920/c052e4f0-e626-4824-b95a-46bb4cdfe518)
 
