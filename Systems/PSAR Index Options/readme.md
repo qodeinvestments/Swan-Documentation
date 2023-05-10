@@ -1,9 +1,9 @@
 ## PSAR Index Options
 
-Updation Date: 10.05.2023
+Updation Date: 10.05.2023 - Done By: Aman Savla
 - Tested adding an OTM Banknifty Hedge.
 - Tested adding only an overnight OTM Banknifty Hedge.
-Done By: Aman Savla
+
 
 
 Updation Date: 30.11.2022 ( This was the last day of the Analysis)
