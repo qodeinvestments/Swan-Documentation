@@ -17,7 +17,7 @@
 4. This labelled data was then converted into continuous contracts (Monthly I, Monthly II, Monthly III) by taking the difference between current date month number and expiry date month number.
 5. We maintained one expiry sheet to get the expiry dates for the current month expiry, next month expiry and far month expiry.
 6. We maintained 3 different sheets for split/bonus, rights issue and dividend ajdustments to be performed.
-7. We performed all these adjustments on the stocks which had the corporation actions. In some stocks, strike prices were in decimal numbers. In that case rounded those strikes to the nearest tick size i.e. 0.05. Also we cross checked if these strikes match with new NSE strikes.
+7. We performed all these adjustments on the stocks which had the corporation actions. In some stocks, strike prices were in decimal numbers. In that case, rounded those strikes to the nearest tick size i.e. 0.05. Also we cross checked if these strikes match with new NSE strikes.
 ## Errors
 1. We checked number of rows for each stock in the raw files and in the final symbol files. In some symbols they were not matching because...  
    a. Symbols had duplicates in the final files.  
