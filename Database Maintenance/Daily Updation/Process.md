@@ -3,7 +3,7 @@
 ### A. BONUS
 1. Ex. Bonus = 3:7
 2. **Adjustment Factor** = (A+B)/B  
-                         = 10/7
+        &nbsp                 = 10/7
 3. *New Strike Price = Old Strike Price / Adjustment Factor
 4. Option Price = Old Price / Adjustment Factor
 5. Lot Size = Old Lot Size * Adjustment Factor
