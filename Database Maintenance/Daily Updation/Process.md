@@ -1,9 +1,8 @@
 # Process followed to create the stock options database
 ## Adjustments
 ### A. BONUS
-Ex. Bonus = 3:7
-
-Adjustment Factor = (A+B)/B
+1. Ex. Bonus = 3:7
+2. Adjustment Factor = (A+B)/B
                   = 10/7
 
 *New Strike Price = Old Strike Price / Adjustment Factor
