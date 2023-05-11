@@ -38,5 +38,5 @@
 
 *If the revised strike prices after adjustment appear in decimal places, the strike shall be rounded off to the nearest tick size.i.e 0.05
 ### D. DIVIDENDS
-1. For dividends, we need to check difference between the strike prices on the day of adjustment and one day prior in the NSE bhavcopy.
+1. For dividends, we need to check the difference between the strike prices on the day of adjustment and one day prior in the NSE bhavcopy.
 2. If the difference matches with the dividend amount, then we will have to adjust the dividend for that stock.
