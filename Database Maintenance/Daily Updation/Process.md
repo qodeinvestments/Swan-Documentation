@@ -24,11 +24,11 @@
 *If the revised strike prices after adjustment appear in decimal places, the strike shall be rounded off to the nearest tick size.i.e 0.05
 ### C. RIGHTS ISSUE
 1. Rights 5:21 @Premium Rs 3/- and F.V. is 2
-2. A = 5
-   B = 21
-   C = 3
-   D = 2
-   X = Old Strike Price
+2. A = 5  
+   B = 21  
+   C = 3  
+   D = 2  
+   X = Old Strike Price  
 3. **Adjustment Factor** = ((B * X) + A * (C + D))/(A + B)
 4. *New Strike Price = Old Strike Price / Adjustment Factor
 5. Option Price = Old Price / Adjustment Factor
