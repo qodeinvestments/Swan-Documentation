@@ -5,5 +5,6 @@
 4. Open the EC2 instance and go to the following path : "C:\Data\Codes"
 5. You will find the Final.py file. Double click on it.
 6. A command prompt will open. You need to copy the dropbox link sent by GDFL on your mail and paste it here. Press enter.
-![Alt text](https://github.com/qodeinvestments/Swan-Documentation/blob/9479708190da785418bcdbc2b6a035e4d65344af/Database%20Maintenance/Daily%20Updation/Start.PNG)
+![](https://github.com/qodeinvestments/Swan-Documentation/blob/35173040855f93ef8272cd6b2a283be6e7555950/Database%20Maintenance/Daily%20Updation/Start.PNG)
+
 
