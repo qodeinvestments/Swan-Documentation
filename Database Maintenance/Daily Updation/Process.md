@@ -1,4 +1,24 @@
 # Process followed to create the stock options database
+## Process
+1. From GDFL raw file, we created symbolwise csv files for each symbol.
+2. These files had these columns  
+   Ticker  
+   Date  
+   Time  
+   Open  
+   High  
+   Low  
+   Close  
+   Volume  
+   Open Interest  
+   New_date  
+   symbol
+3. From this file we created labelled data, in which we split the Ticker column and created new columns like Strike, Option_Type, Expiry_Date, etc.
+4. This labelled data was then converted into continuous contracts (Monthly I, Monthly II, Monthly III) by taking the difference between current date month number and expiry date month number.
+5. We maintained one expiry sheet to get the expiry dates for the current month expiry, next month expiry and far month expiry.
+6. We maintained 3 different sheets for split/bonus, rights issue and dividend ajdustments to be performed.
+7. We performed all these adjustments on the stocks which had the corporation actions. In some stocks, strike prices were in decimal numbers. In that case rounded those strikes to the nearest tick size i.e. 0.05. Also we cross checked if these strikes match with new NSE strikes.
+
 ## Adjustments
 ### A. BONUS
 1. Ex. Bonus = 3:7
