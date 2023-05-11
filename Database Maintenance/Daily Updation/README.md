@@ -19,6 +19,11 @@ The daily updation is divided into three parts namely uploading raw GDFL file on
 1. This code will download the zip file from the dropbox folder and unzip it.
 2. We rename the file as NSEFO_date and upload it to the database.
 ### Stock Options Updation
+1. This code will create symbolwise files and segregate the ticker to create a labelled data.
+2. This labelled data will be split into current month, next month and far month contracts.
+3. Continuous contracts will be then appended to the historical stock options data which is stored on database.
+8. Go through the corporate actions for that day and if there are any adjustments perfrom them individually on that specific stock.
+9. By default this code will generate the stock options data for today, but if need to generate it for a specific date you will have to change the 'date' variable.
 
 ### Index Options Updation
 
