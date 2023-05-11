@@ -26,6 +26,11 @@ The daily updation is divided into three parts namely uploading raw GDFL file on
 9. By default this code will generate the stock options data for today, but if need to generate it for a specific date you will have to change the 'date' variable.
 
 ### Index Options Updation
+1. [This code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Index_Daily_Contracts.ipynb) is used to create daily continuous contracts for BankNifty, Nifty and FinNifty.
+2. The input will be a "Date".
+3. Continuous Contracts are created and stored in the standard format, example of which is - "BANKNIFTYMONTHLY-I40000CE".
+4. The continuous contracts files are stored on the desktop under "Pyspark" folder.
+5. Once these contracts are created, we run the [Append_Code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Daily_Updation_Code.ipynb) to append the contracts to the database.
 
                                                 
 
