@@ -14,8 +14,12 @@
 7. This will start the process.
 
 ## Process
-The daily updation is divided into two parts containing stock options and index options.
+The daily updation is divided into three parts namely uploading raw GDFL file on database, stock options updation and index options updation.
+### Uploading raw GDFL file on database
+1. This code will download the zip file from the dropbox folder and unzip it.
+2. We rename the file as NSEFO_date and upload it to the database.
 ### Stock Options Updation
+
 ### Index Options Updation
 
                                                 
