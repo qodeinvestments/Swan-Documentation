@@ -1,4 +1,5 @@
 # Daily Data Updation Documentation
+## Starting the process
 1. Log in to AWS Console. Select the region as SINGAPORE and start the EC2 instance (NSE500) 
 2. Change the region to MUMBAI and start the RDS database (swandatabase).
 3. In your inbox check if GDFL has sent the mail for the current date.
@@ -10,8 +11,8 @@
 
 ![](https://github.com/qodeinvestments/Swan-Documentation/blob/35173040855f93ef8272cd6b2a283be6e7555950/Database%20Maintenance/Daily%20Updation/Start.PNG)
 
+7. This will start the process.
 
-7.mkjljlk
                                                 
 
 
