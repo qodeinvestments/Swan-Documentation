@@ -13,6 +13,11 @@
 
 7. This will start the process.
 
+## Process
+The daily updation is divided into two parts containing stock options and index options.
+### Stock Options Updation
+### Index Options Updation
+
                                                 
 
 
