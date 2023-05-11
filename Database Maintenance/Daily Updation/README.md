@@ -8,6 +8,6 @@
 
                                                 ![](https://github.com/qodeinvestments/Swan-Documentation/blob/35173040855f93ef8272cd6b2a283be6e7555950/Database%20Maintenance/Daily%20Updation/Start.PNG)
                                                 
-7.
+
 
 
