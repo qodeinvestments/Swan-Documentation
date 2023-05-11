@@ -19,7 +19,7 @@
 6. We maintained 3 different sheets for split/bonus, rights issue and dividend ajdustments to be performed.
 7. We performed all these adjustments on the stocks which had the corporation actions. In some stocks, strike prices were in decimal numbers. In that case rounded those strikes to the nearest tick size i.e. 0.05. Also we cross checked if these strikes match with new NSE strikes.
 ## Errors
-1. We checked number of rows for each stock in the raw files and in the final symbol files. In some symbols they were not matching because... 
+1. We checked number of rows for each stock in the raw files and in the final symbol files. In some symbols they were not matching because...  
    a. Symbols had duplicates in the final files.  
    b. Symbols had '15:30:59' timestamp data point in the raw file but in the final file it was till '15:29:59'.  
    c. 
