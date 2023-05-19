@@ -55,4 +55,5 @@ this is a test.
 - - Entry at 093000, exit at 091500.
 - - Optimised for vix difference of -1 to 1, at a step of 0.5 .
 
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/111041920/e0c998e5-1ec9-455a-80ef-705d4259f7bd)
 
