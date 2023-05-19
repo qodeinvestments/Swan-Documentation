@@ -47,7 +47,21 @@ Expiry Symbol: Trading Next Expiry on Expiry Days(Thursdays)
 The system involves buying the ATM Option based on movement in the index or the premium. For example: If the ATM option moves 40% in the day, we will buy the option and hold on till the next day. It could calls or puts.
 this is a test.
 
-### Optimisation - 19-05-2023
+## Analysis - 19-05-2023
+### Obserations:
+- Higher profit for higher positive overnight moves in BN.	
+- Higher profits if BN goes up after day open.
+- Vix has to fall from prevday close
+- Option close should be below option atr
+
+At exit
+- Profit if BN has moved in either direction and not flat.
+- Higher profit if Volume and OI of option fall. (Option becomes in the money)
+- 
+
+
+
+### Optimisation:
 
 #### Vix Entry Filter:
 - Entry only if vix at open has fallen from previous day vix.
