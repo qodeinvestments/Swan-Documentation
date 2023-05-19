@@ -47,6 +47,12 @@ Expiry Symbol: Trading Next Expiry on Expiry Days(Thursdays)
 The system involves buying the ATM Option based on movement in the index or the premium. For example: If the ATM option moves 40% in the day, we will buy the option and hold on till the next day. It could calls or puts.
 this is a test.
 
+### Optimisation - 19-05-2023
 
+#### Vix Entry Filter:
+- Entry only if vix at open has fallen from previous day vix.
+- - Reduced Drawdown and increased CAR/MDD.
+- - Entry at 093000, exit at 091500.
+- - Optimised for vix difference of -1 to 1, at a step of 0.5 .
 
 
