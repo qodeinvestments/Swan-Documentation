@@ -9,8 +9,8 @@
 Lastly Comparing all the above CAGRs to see if we get any trend wrt the Ranking by **ROCE**.  
   
   
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Table%2009-17.png" width="250"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Chart%2009-17.png" width="500">
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Bar%20Chart%2009-17.png" width="500">  
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Table%2009-17.png" width="250"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Chart%2009-17.png" width="500">
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Bar%20Chart%2009-17.png" width="500">  
 We can see a **Downtrend** for the above Backtest form the year 2009 to 2017.
 
 Similarly,
@@ -25,8 +25,8 @@ Similarly,
 Lastly Comparing all the above CAGRs to see if we get any trend wrt the Ranking by **ROCE**. 
   
   
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Table%2009-23.png" width="250"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Chart%2009-23.png" width="500">
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Bar%20Chart%2009-23.png" width="600">  
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Table%2009-23.png" width="250"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Chart%2009-23.png" width="500">
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Bar%20Chart%2009-23.png" width="600">  
 We cannot see a specific trend in the begginning years but can see a Downtrend for the next years, for the above Backtest form the year 2009 to 2023.
 
   
@@ -44,9 +44,9 @@ We cannot see a specific trend in the begginning years but can see a Downtrend f
 Lastly Comparing all the above CAGRs to see if we get any trend wrt the Ranking by **ROCE**.  
   
   
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Table%2004-23%20Ten.png" height="200"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Bar%20Chart%2004-23%20Ten.png" height="200" >
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Table%2004-23%20Ten.png" height="200"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Bar%20Chart%2004-23%20Ten.png" height="200" >
 
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Chart%2004-23%20Ten.png" width="600">
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Chart%2004-23%20Ten.png" width="600">
 
 We cannot see any trend here.  
 
@@ -62,8 +62,8 @@ Lastly Comparing all the above CAGRs to see if we get any trend wrt the Ranking 
   
   
 
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Table%2009-23%20Ten.png" width="350"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Chart%2009-23%20Ten.png" width="550">  
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/Bar%20Chart%2009-23%20Ten.png" width="600">  
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Table%2009-23%20Ten.png" width="350"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Chart%2009-23%20Ten.png" width="550">  
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Bar%20Chart%2009-23%20Ten.png" width="600">  
 
 We cannot see a specific trend for the above Backtest form the year 2009 to 2023.
 
