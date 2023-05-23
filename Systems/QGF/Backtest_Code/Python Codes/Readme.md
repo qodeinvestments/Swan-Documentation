@@ -30,7 +30,23 @@ Lastly Comparing all the above CAGRs to see if we get any trend wrt the Ranking 
   
 <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Table%2009-23.png" width="250"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Chart%2009-23.png" width="500">
 <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Bar%20Chart%2009-23.png" width="600">  
-We cannot see a specific trend in the begginning years but can see a Downtrend for the next years, for the above Backtest form the year 2009 to 2023.
+We cannot see a specific trend in the begginning years but can see a Downtrend for the next years, for the above Backtest form the year 2009 to 2023.  
+  
+Similarly,
+# 3. 2010-23
+### Comparing CAGR of Top 0-30, 30-60, 60-90,... stocks based on ROCE to see a trend :
+1) Picking Top 0-30 Companies every year from 2009 to 2023 and Calulating the CAGR.
+2) Picking Top 30-60 Companies every year from 2009 to 2023 and Calulating the CAGR.
+3) Picking Top 60-90 Companies every year from 2009 to 2023 and Calulating the CAGR.
+4) ...
+5) ...
+
+Lastly Comparing all the above CAGRs to see if we get any trend wrt the Ranking by **ROCE**. 
+  
+  
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Table%2010-23.png" width="250"> <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Chart%2010-23.png" width="500">
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Bar%20Chart%2010-23.png" width="600">  
+We cannot see a specific trend in the begginning years but can see a Downtrend for the next years, similar to the previous Backtest.  
 
   
   
