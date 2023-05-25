@@ -19,6 +19,10 @@ f. AIF: For investing in tech businesses for investors
 
 
 
+Concall Notes:
+
+1.Q3FY22:
+
 
 
 
