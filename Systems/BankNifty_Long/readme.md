@@ -67,7 +67,8 @@ At exit
 - Entry only if vix at open has fallen from previous day vix.
 - - Entry at 093000, exit at 091500, at a gap filter of 40.
 - - Optimised for vix difference of -0.5 to 0.5, at a step of 0.5 .
-- - Observed lower return and lower drawdown with a similar CAR/MDD, Number of trades dropped significantly
+- - Observed lower return and lower drawdown leading to a similar CAR/MDD, Number of trades dropped significantly.
+- - Did not add any value to the system.
 
 
 ![image](https://github.com/qodeinvestments/Swan-Documentation/assets/111041920/61688d91-5cee-46cc-ac36-789c25ff7c3b)
