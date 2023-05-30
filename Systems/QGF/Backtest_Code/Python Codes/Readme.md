@@ -1,7 +1,7 @@
 For the Backtest Code,  
 filename : **"Combined Model 2.1 Interval Ranking.ipynb"**
 
-# 1. 2009-17
+# 1. 2009-17 
 ### Comparing CAGR of Top 0-30, 30-60, 60-90,... stocks based on ROCE to see a trend :
 1) Picking Top 0-30 Companies every year from 2009 to 2017 and Calulating the CAGR.
 2) Picking Top 30-60 Companies every year from 2009 to 2017 and Calulating the CAGR.
