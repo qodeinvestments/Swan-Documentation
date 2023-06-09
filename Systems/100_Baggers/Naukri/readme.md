@@ -5,7 +5,7 @@ Naukri.com  started with the idea to solve the problem of Recruiters to find pot
 
 How does Naukri Make Money?
 
-90% of Naukri's business comes from Employers(INFY,TCS,HCL etc) who are willing to pay them for accessing the vast database of Resumes.In 2023, Naukri added 20k new Resumes daily(7.3 Million/Year). *The Resumes and candidates are the Raw Material of this business. And cost of this Raw Material is the Marketing Expenditure*. Every year Naukri spends nearly 20% of Revenues on its [marketing expense](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/13e4707e-ec33-4d98-af41-bc66dff4f091). And this is crucial to keep the database pool updated and growing.Having a strong marketing team and innovative campaigns are necessary to keep fueling the machine. 
+90% of Naukri's [revenue](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/50721c74-fab3-49a6-94dd-8ec47c9a7013) comes from Employers(INFY,TCS,HCL etc) who are willing to pay them for accessing the vast database of Resumes.In 2023, Naukri added 20k new Resumes daily(7.3 Million/Year). *The Resumes and candidates are the Raw Material of this business. And cost of this Raw Material is the Marketing Expenditure*. Every year Naukri spends nearly 20% of Revenues on its [marketing expense](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/13e4707e-ec33-4d98-af41-bc66dff4f091). And this is crucial to keep the database pool updated and growing.Having a strong marketing team and innovative campaigns are necessary to keep fueling the machine. 
 
 What Next?
 
