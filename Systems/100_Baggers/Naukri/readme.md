@@ -28,8 +28,12 @@ Profitability:
 
 All the profits of the business come from Naukri and its allied businesses. Most other verticals like 99acres,shiksha and Jeevansathi either breakeven or are loss making. All the other businesses are in different stages of their business cycle. Some of them are yet figuring out the correct business model and some have figured and its matter of time they scale up. Its hard to put an estimate as to how big they can become and how much will it contribute to future cash flows. 
 
+What will be the big contributers to revenue going ahead?
 
-
+1. Naukri's Consistent cash flow
+2. Increase in app and web usage of: 99acres, Jeevansathi
+3. Increase in Valuations of Zomato and PBFintech
+4. Listing of any of the small startups owned/Invested by Naukri  
 
 
 
