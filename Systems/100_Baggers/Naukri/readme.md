@@ -15,12 +15,12 @@ Compounding capital at a higher rates of return is a key idea in the wealth crea
 
 Over the years they have stuck to Tech businesses (Within their circle of Competence). Some of the prominent businesses owned/Invested by Naukri:
 
-i)    JeevanSathi.com
-ii)   99acres.com
-iii)  Shiksha.com
-iv)   Other Recruitment Portals( That aid the current business- Amibitionbox.com,)
-v)    Zomato
-vi)   PolicyBazaar
+i)    JeevanSathi.com  
+ii)   99acres.com  
+iii)  Shiksha.com  
+iv)   Other Recruitment Portals( That aid the current business- Amibitionbox.com,)  
+v)    Zomato  
+vi)   PolicyBazaar  
 
 Some of these investments are a pure investment play(Zomato, PB) and in some of the businesses they manage operations(99acres, Jeevansathi etc). They understood that all the cash generated cannot be redeployed in Naukri.com itself, hence the option to invest or takeover businesses with similar economics or within the same domain. 
 
