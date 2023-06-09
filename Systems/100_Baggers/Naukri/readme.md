@@ -7,6 +7,9 @@ How does Naukri Make Money?
 
 90% of Naukri's business comes from Employers(INFY,TCS,HCL etc) who are willing to pay them for accessing the vast database of Resumes.In 2023, Naukri added 20k new Resumes daily(7.3 Million/Year). *The Resumes and candidates are the Raw Material of this business. And cost of this Raw Material is the Marketing Expenditure*. Every year Naukri spends nearly 20% of Revenues on its marketing expense. And this is crucial to keep the database pool updated and growing.Having a strong marketing team and innovative campaigns are necessary to keep fueling the machine. 
 
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/13e4707e-ec33-4d98-af41-bc66dff4f091)
+
+
 What Next?
 
 Over the years, they have cracked this model(How to get Employees to upload resumes and to get employers to buy them). Naukri is now a consistent cash cow for Info Edge (1000 Crores of Cash generated in FY23:Sitting on a 3000 Crore cash balance).
