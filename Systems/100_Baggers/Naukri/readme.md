@@ -13,7 +13,7 @@ Over the years, they have cracked this model(How to get Employees to upload resu
 
 Compounding capital at a higher rates of return is a key idea in the wealth creation process. The founder understands this well and tries to redeploy whatever cash they can, in businesses they understand. The cash flow generated through Naukri is used to expand the current business as well as invest in other businesses with similar dynamics. Every Quarter they assess >1000 startups as investment opportunities.
 
-Over the years they have stuck to Tech businesses (Within their circle of Competence). Some of the prominent businesses owned/Invested by Naukri:
+Over the years they have stuck to Tech businesses (Within their circle of Competence). Some of the more prominent businesses owned/Invested by Naukri:
 
 i)    JeevanSathi.com  
 ii)   99acres.com  
