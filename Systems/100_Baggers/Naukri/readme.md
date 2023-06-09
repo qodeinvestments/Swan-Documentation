@@ -11,7 +11,7 @@ What Next?
 
 Over the years, they have cracked this model(How to get Employees to upload resumes and to get employers to buy them). Naukri is now a consistent cash cow for Info Edge (1000 Crores of Cash generated in FY23:Sitting on a 3000 Crore cash balance).
 
-Compounding capital at a higher rates of return is a key idea in the wealth creation process. The founder understands this well and tries to redeploy whatever cash they can, in businesses they understand. The cash flow generated through Naukri is used to expand the current business as well as invest in other businesses with similar dynamics. Every Quarter they assess >1000 startups as investment opportunities.
+Compounding capital at a higher rates of return is a key idea in the wealth creation process. The founder understands this well and tries to redeploy cash, in businesses they understand. The cash flow generated through Naukri is used to expand the current business as well as invest in other businesses with similar dynamics. Every Quarter they assess >1000 startups as investment opportunities.
 
 Over the years they have stuck to Tech businesses (Within their circle of Competence). Some of the more prominent businesses owned/Invested by Naukri:
 
