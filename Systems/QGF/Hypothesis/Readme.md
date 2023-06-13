@@ -11,7 +11,7 @@ Market Cap of :
 But the marketcap range is not inflation adjusted.  
 The above ranges could have been true for recent years. But as years pass on, the range of the groups also changes.  
 
-_i.e. a company of marketcap 5000 Cr could be a largecap company in the year 2005, but a company of the same marketcap may not fall under largecap category now._  
+_i.e. a company of marketcap 5000 Cr could be a largecap company in the year 2005, but a company of the same marketcap may not fall under largecap category in the year 2023._  
 
 So, we tried to find a way to group companies based on Marketcap without fixing to the above ranges.  
 
