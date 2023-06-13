@@ -1,7 +1,6 @@
 ### New approach to group companies based on thier Market Capitalization.
-We used to group companies based on conventional grouping ranges like,  
+We used to group companies based on conventional grouping ranges of Market Cap like,  
   
-Market Cap of :  
 **Large cap** companies => above 20k Cr  
 **Mid cap** companies => 5000 to 20k Cr  
 **Small cap** companies => 500 to 5000 Cr  
