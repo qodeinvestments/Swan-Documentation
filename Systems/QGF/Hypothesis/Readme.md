@@ -48,4 +48,4 @@ We can see that over the years, the Marketcap range shifts for every group.
 ### Below is the comparison of marketcap range of different groups YOY :  
   
 
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/New%20Market%20cap%20change%20yoy.PNG" width="1000"> 
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/New%20Market%20cap%20change%20yearly.PNG" width="1000"> 
