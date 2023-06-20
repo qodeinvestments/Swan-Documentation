@@ -18,11 +18,16 @@
 5. We maintained one expiry sheet to get the expiry dates for the current month expiry, next month expiry and far month expiry.
 6. We maintained 3 different sheets for split/bonus, rights issue and dividend ajdustments to be performed.
 7. We performed all these adjustments on the stocks which had the corporation actions. In some stocks, strike prices were in decimal numbers. In that case, rounded those strikes to the nearest tick size i.e. 0.05. Also we cross checked if these strikes match with new NSE strikes.
-## Errors
+8. For all the stock we generated 1-min EQ data from e-signal.
+## Checks
 1. We checked number of rows for each stock in the raw files and in the final symbol files. In some symbols they were not matching because...  
    a. Symbols had duplicates in the final files.  
    b. Symbols had '15:30:59' timestamp data point in the raw file but in the final file it was till '15:29:59'.  
-   c. 
+2. We checked sum of close column for each stock in the raw files and in the final symbol files.
+3. We performed all the corporate actions(except for dividend) on the stocks which had them. In some stocks GDFL had not adjusted the strike after the corporate action had happened. So we corrected that as well.
+4. In some stocks EQ data from e-signal was not generated for all the dates. So force backfilled the data for all those stocks.
+5. We generated 5-95 delta strikes based on the greeks of the options EOD data. We compared this 50 delta (At The Money) strike with EQ close and check how much difference is there between prices. If the difference is huge it means theres some issue with the data.
+6. We also checked dates which were there in the options data of a symbol but not there in the EQ data.  
 ## Adjustments
 ### A. BONUS
 1. Ex. Bonus = 3:7
