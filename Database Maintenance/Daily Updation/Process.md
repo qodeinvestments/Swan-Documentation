@@ -26,8 +26,8 @@
 2. We checked sum of close column for each stock in the raw files and in the final symbol files.
 3. We performed all the corporate actions(except for dividend) on the stocks which had them. In some stocks GDFL had not adjusted the strike after the corporate action had happened. So we corrected that as well.
 4. In some stocks EQ data from e-signal was not generated for all the dates. So force backfilled the data for all those stocks.
-5. We generated 5-95 delta strikes based on the greeks of the options EOD data. We compared this 50 delta (At The Money) strike with EQ close and check how much difference is there between prices. If the difference is huge it means theres some issue with the data.
-6. We also checked dates which were there in the options data of a symbol but not there in the EQ data.  
+5. We generated 5-95 delta strikes based on the greeks of the options EOD data. We compared this 50 delta (At The Money) strike with EQ close and checked how much difference is there between prices. If the difference is huge it means there is some issue with the data.
+6. We also checked dates which were there in the options data of a symbol but not there in the EQ data and generated EQ data again for the symbols which had missing EQ data.
 ## Adjustments
 ### A. BONUS
 1. Ex. Bonus = 3:7
