@@ -67,5 +67,12 @@
 
 *If the revised strike prices after adjustment appear in decimal places, the strike shall be rounded off to the nearest tick size.i.e 0.05
 ### D. DIVIDENDS
-1. For dividends, we need to check the difference between the strike prices on the day of adjustment and one day prior in the NSE bhavcopy.
-2. If the difference matches with the dividend amount, then we will have to adjust the dividend for that stock.
+1. We are not adjusting the dividend in the database, but we will square off those strikes while doing the backtest.
+2. That's why we are storing the details about all the symbols in which NSE has adjusted for the dividend. 
+3. For dividends, we need to check the difference between the strike prices on the day of adjustment and one day prior in the NSE bhavcopy.
+4. If the difference matches with the dividend amount, then we will add the symbol in the dividend adjustments list.
+
+### E. MERGER/DEMERGER
+1. We are not adjusting the merger/demerger in the database, but we will square off those strikes while doing the backtest.
+2. That's why we are storing the details about all the symbols in which NSE has adjusted for the merger/demerger. 
+
