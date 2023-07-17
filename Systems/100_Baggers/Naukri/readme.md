@@ -35,11 +35,12 @@ What will be the big contributers to [revenue](https://docs.google.com/spreadshe
 3. Increase in Valuations of Zomato and PBFintech
 4. Listing of any of the small startups owned/Invested by Naukri
 
+[Non Financial data for Naukri](https://docs.google.com/spreadsheets/d/1IMoKGuwUb64yxszcIf6k6B2y7QmEqcsw/edit#gid=1970120605)
 ### Job Speak Index
 
 The Naukri JobSpeak is a monthly Index representing hiring activity based on new job listings and job-related searches by recruiters on the resume database on Naukri.com. July 2008 is taken as the base month with an index value of 1,000, and the subsequent monthly index values are compared with the data for July 2008.
 
-So in our [analysis](https://docs.google.com/spreadsheets/d/1R0J1vF3jfKFHCFlaO7hwxUmQM_hSBz1V/edit#gid=996107190) we have compared the Job Speak Index QoQ change for few industries with the revenue QoQ change of those industries. 
+So in our [analysis](https://docs.google.com/spreadsheets/d/1R0J1vF3jfKFHCFlaO7hwxUmQM_hSBz1V/edit#gid=996107190) we have compared the Job Speak Index QoQ change for few industries with the revenue QoQ change of those industries. We have also [plotted](https://docs.google.com/spreadsheets/d/1p9cltGklnlicPOAs0yf7r-AIC-6THeZg/edit#gid=243115749) NIFTY Sectoral Indices against Job Speak Sectoral Indices.
 
 
 ### 99 Acres
@@ -53,12 +54,29 @@ So in our [analysis](https://docs.google.com/spreadsheets/d/1R0J1vF3jfKFHCFlaO7h
   * There are various schemes under which listings can be done. For e.g. there are schemes where upto 150 property listings can be done over a period of 3 Months.For a 6 monthly time frame, you could get around 500 listings.
 * In case of a Builder/Developer :
   * In case of any upcoming/under constructed projects, builders can run ad campaigns. The cost structure for this is customised depending on the size of the project.
+
+##### The primary sources of [revenue](https://docs.google.com/spreadsheets/d/1IMoKGuwUb64yxszcIf6k6B2y7QmEqcsw/edit#gid=1417590720) for 99acres.com are :
+
+* Property Listing fee :
+  * Especially for brokers and builders, 99acres has property listing charges at a certain point of listings. And this is 99Acres’ primary income source, as it earns 48% of its business from property listing fees.
+
+* Subscription Fee :
+  * Along with the property listing fee, 99acres has a subscription plan for brokers and builders promoting their listed properties and converting qualified leads. 
+
+* Featured Ads on The Home Page :
+  * Usually, if you visit the home page of 99Acres, you will see recommended properties. These are featured ads displayed by users who want to sell their property quickly.
+
+* Fee for promoting and displaying builders and dealer :
+  * Some builders and sellers promote their profiles to create a personal brand and pay a fee for embedding profiles on the 99Acres homepage.
+
+[Non Financial data for 99 Acres](https://docs.google.com/spreadsheets/d/1IMoKGuwUb64yxszcIf6k6B2y7QmEqcsw/edit#gid=1434284654)
  
 ### Jeevansathi
 Jeevansathi.com is an Indian matrimonial portal owned by Info Edge. Jeevansathi.com uses the customer to customer (C2C) business model. The website has the option to list, search, and express interest in the profiles of prospective match. Users have to pay to get the contact details of profiles they are interested in. There are also offline centers operational for matching services. Jeevansathi.com Match Point centers provides offline users with matchmaking services. The first center was launched in Mumbai in 2008.
 
 ### Shiksha
 Shiksha.com is a college comparison website. Shiksha.com operates on business model of attracting advertising from education providers from both India and abroad. The advertisers are attracted because the site attracts prospective students due the content it has created on colleges, courses, scholarships and admissions.
+[Non Financial data for Shiksha](https://docs.google.com/spreadsheets/d/1IMoKGuwUb64yxszcIf6k6B2y7QmEqcsw/edit#gid=658335691)
     
     
 
