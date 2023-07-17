@@ -39,9 +39,29 @@ What will be the big contributers to revenue going ahead?
 
 The Naukri JobSpeak is a monthly Index representing hiring activity based on new job listings and job-related searches by recruiters on the resume database on Naukri.com. July 2008 is taken as the base month with an index value of 1,000, and the subsequent monthly index values are compared with the data for July 2008.
 
-So in our analysis we have compared the Job Speak Index QoQ change for few industries with the revenue QoQ change of those industries. 
+So in our [analysis](https://docs.google.com/spreadsheets/d/1R0J1vF3jfKFHCFlaO7hwxUmQM_hSBz1V/edit#gid=996107190) we have compared the Job Speak Index QoQ change for few industries with the revenue QoQ change of those industries. 
 
-![image](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/Naukri/IT%20Revenue%20Vs%20IT%20Job%20Speak.png)
+
+### 99 Acres
+99acres.com is India's Top Property Portal, following a Peer2Peer business model. It’s a platform on which Buyers, Sellers, Real Estate Brokers and Property Developers can all meet and transact business.
+* In case of Seller : 
+  * You can list your property for free with a limit on the number of times it can be listed.
+  * In the premium plan, there will be a relationship manager who will do all the necessary tasks on your behalf which includes speaking to potential buyers, going through      buyer enquiries etc.
+* In case of buyer :
+  * If you like any property, you can get in touch with the broker, developer, the seller or the relatonship manager of the seller.All this is free of cost and no brokerage has to be paid.
+* In case of broker :
+  * There are various schemes under which listings can be done. For e.g. there are schemes where upto 150 property listings can be done over a period of 3 Months.For a 6 monthly time frame, you could get around 500 listings.
+* In case of a Builder/Developer :
+  * In case of any upcoming/under constructed projects, builders can run ad campaigns. The cost structure for this is customised depending on the size of the project.
+ 
+### Jeevansathi
+Jeevansathi.com is an Indian matrimonial portal owned by Info Edge. Jeevansathi.com uses the customer to customer (C2C) business model. The website has the option to list, search, and express interest in the profiles of prospective match. Users have to pay to get the contact details of profiles they are interested in. There are also offline centers operational for matching services. Jeevansathi.com Match Point centers provides offline users with matchmaking services. The first center was launched in Mumbai in 2008.
+
+### Shiksha
+Shiksha.com is a college comparison website. Shiksha.com operates on business model of attracting advertising from education providers from both India and abroad. The advertisers are attracted because the site attracts prospective students due the content it has created on colleges, courses, scholarships and admissions.
+    
+    
+
 
 
 
