@@ -76,6 +76,7 @@ Jeevansathi.com is an Indian matrimonial portal owned by Info Edge. Jeevansathi.
 
 ### Shiksha
 Shiksha.com is a college comparison website. Shiksha.com operates on business model of attracting advertising from education providers from both India and abroad. The advertisers are attracted because the site attracts prospective students due the content it has created on colleges, courses, scholarships and admissions.
+
 [Non Financial data for Shiksha](https://docs.google.com/spreadsheets/d/1IMoKGuwUb64yxszcIf6k6B2y7QmEqcsw/edit#gid=658335691)
     
     
