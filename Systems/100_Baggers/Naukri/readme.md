@@ -41,7 +41,7 @@ The Naukri JobSpeak is a monthly Index representing hiring activity based on new
 
 So in our analysis we have compared the Job Speak Index QoQ change for few industries with the revenue QoQ change of those industries. 
 
-[chart](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/Naukri/IT%20Revenue%20Vs%20IT%20Job%20Speak.png)
+![image](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/Naukri/IT%20Revenue%20Vs%20IT%20Job%20Speak.png)
 
 
 
