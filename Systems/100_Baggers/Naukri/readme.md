@@ -37,7 +37,7 @@ What will be the big contributers to revenue going ahead?
 
 ### Job Speak Index
 
-The Naukri JobSpeak is a monthly Index representing the state of the Indian job market & hiring activity based on new job listings and job-related searches by recruiters on the resume database on Naukri.com. The JobSpeak Index captures hiring activity across multiple dimensions, including industries, cities, functional areas, and experience bands. July 2008 is taken as the base month with an index value of 1,000, and the subsequent monthly index values are compared with the data for July 2008. The index is a highly robust and reliable indicator of white-collar hiring in India. It is aggregated based on the hiring activity of over 100,000 clients with over 70 Lakh new job mandates yearly. The report does not cover gig employment, hyperlocal hiring, or campus placement. Over a long period of time, JobSpeak could be impacted by factors like internet penetration and Naukri's market share.
+The Naukri JobSpeak is a monthly Index representing hiring activity based on new job listings and job-related searches by recruiters on the resume database on Naukri.com. July 2008 is taken as the base month with an index value of 1,000, and the subsequent monthly index values are compared with the data for July 2008.
 
 So in our analysis we have compared the Job Speak Index QoQ change for few industries with the revenue QoQ change of those industries. 
 
