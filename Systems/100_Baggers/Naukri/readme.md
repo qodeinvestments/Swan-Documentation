@@ -74,9 +74,12 @@ So in our [analysis](https://docs.google.com/spreadsheets/d/1R0J1vF3jfKFHCFlaO7h
 ### Jeevansathi
 Jeevansathi.com is an Indian matrimonial portal owned by Info Edge. Jeevansathi.com uses the customer to customer (C2C) business model. The website has the option to list, search, and express interest in the profiles of prospective match. Users have to pay to get the contact details of profiles they are interested in. There are also offline centers operational for matching services. Jeevansathi.com Match Point centers provides offline users with matchmaking services. The first center was launched in Mumbai in 2008.
 
+[Financial data for Jeevansathi](https://docs.google.com/spreadsheets/d/1IMoKGuwUb64yxszcIf6k6B2y7QmEqcsw/edit#gid=690981534)
+
 ### Shiksha
 Shiksha.com is a college comparison website. Shiksha.com operates on business model of attracting advertising from education providers from both India and abroad. The advertisers are attracted because the site attracts prospective students due the content it has created on colleges, courses, scholarships and admissions.
 
+[Financial data for Shiksha](https://docs.google.com/spreadsheets/d/1IMoKGuwUb64yxszcIf6k6B2y7QmEqcsw/edit#gid=1769318237)
 [Non Financial data for Shiksha](https://docs.google.com/spreadsheets/d/1IMoKGuwUb64yxszcIf6k6B2y7QmEqcsw/edit#gid=658335691)
     
     
