@@ -38,8 +38,11 @@ i) **SEBI is actively disuading people to trade F&O**: Why do we think so ?
     -Promoting Mutual Funds     
 
 ii)  If **BG's are no longer accepted** with the exchange: This will be a game changer, returns will fall to half of what it is ( Looking at the way SEBI is moving, this is very much on the table)   
+
 iii) Issues with **Scaling**: There is a limitation of Volumes and scale in this game    
+
 iv)  **Trading Businesses do not get crazy multiples** because of low entry bareers in the business. All you need is capital to start the business.     
+
 v)   Most businesses that get low multiples and that trade to a discount to Book value are holding businesses,trading businesses and Investment firms. Can be seen in the list attached over here.  
      In order to make money, people need to like the business and give it a better multiple. Even if we see earnings growth, but **people dont reward this with a better multiple**, it will be hard  
      for this to be a multibagger.  
