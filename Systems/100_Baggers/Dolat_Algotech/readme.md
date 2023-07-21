@@ -32,10 +32,10 @@ ii) 2x Leverage: Bank Guarantee
 #### What risks do we see? 
 
 i) SEBI is actively disuading people to trade F&O: Why do we think so ? 
-    - Higher STT 
-    - Higher Taxes on F&O 
-    - Writing Reports as to how F&O traders dont make money with stats 
-    - Promoting Mutual Funds 
+    -Higher STT 
+    -Higher Taxes on F&O 
+    -Writing Reports as to how F&O traders dont make money with stats 
+    -Promoting Mutual Funds 
 
 ii)  If BG's are no longer accepted with the exchange: This will be a game changer, returns will fall to half of what it is ( Looking at the way SEBI is moving, this is very much on the table) 
 iii) Issues with Scaling: There is a limitation of Volumes and scale in this game 
