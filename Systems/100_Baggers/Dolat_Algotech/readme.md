@@ -10,27 +10,27 @@ Hence risk of Losing Capital is negligible. Dolat as a group has been in the sto
 activities too. From 2017 results have been brilliant. 
 ```
 ### Business Outline:
-
+```
 They are primarily into trading. Almost all of its profits come from Trading F&O. Since we are in the same business we understand how difficult it is to make money consistently becuase of the elements of 
 i) Curve Fitting ii) Mispricings fading away due to many participants. Inspite of this, these guys have had a great track record. No Loss making month since inception. 2017 to 2023 They have generated 35-40% ROCE 
 on an average. Each Quarter has been profitable. The high ROCE is a factor of having access to a Bank Guarantee at a low cost of 1%p.a. So essentially they are making 18-20% on their trading books and have  
 levered up 2x. Leverage is key for a High ROCE. But its important to key risks in check when you lever your book 2x.  
-
+```
 
 ### What Stands Out?
-
+```
 Over the years we've come across 50-100 Traders and very few have been able to be consistently profitable. Consistently making money means you know something others dont.  
 We know that individual traders cannot have such track records. Its only possible if you have a good team. So they have definetely have built a team and culture to acheive this.  
 We do not know much other than the fine track record and team. We have seen their job postings on their website and Naukri.  
-
+```
 
 ### What leads to such high Returns? 
-
+```
 i)  Low Drawdown hedged systems   
 ii) 2x Leverage: Bank Guarantee   
-
+```
 ### What risks do we see?   
-
+```
 i) **SEBI is actively disuading people to trade F&O**: Why do we think so ?  
     -Higher STT     
     -Higher Taxes on F&O     
@@ -46,9 +46,10 @@ iv)  **Trading Businesses do not get crazy multiples** because of low entry bare
 v)   Most businesses that get **low multiples** and that trade to a discount to Book value are holding businesses,trading businesses and Investment firms. Can be seen in the list attached over here.  
      In order to make money, people need to like the business and give it a better multiple. Even if we see earnings growth, but **people dont reward this with a better multiple**, it will be hard  
      for this to be a multibagger.  
-
+```
 
 ### Valuations:
+```
 Date: 21.07.2023
 Market Cap: 788 Crores 
 
@@ -59,7 +60,7 @@ The model below is taking a conservative view. Making 8% is not difficult becaus
 If take a reverse DCF into consideration. Markets taking a 7% Growth Rate for the next 10 years into consideration. 
 
 **Imp**: Growth Rate over here is actually an Input for How much will be earned on the Free Cash Flow, So we are not considering a growth on FCFF but rather a yeild on FCFF since its an investment firm.
-                
+```                
 ![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/9d428ddd-c12e-4dd5-b007-bb5aba08199f)
 
 
