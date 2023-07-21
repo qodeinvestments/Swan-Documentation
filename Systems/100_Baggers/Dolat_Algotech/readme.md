@@ -1,4 +1,4 @@
-
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/82a1838e-a309-420b-adb6-68f1bf361dfc)
 ## DOLAT ALGOTECH LTD.  
 
 Updated : 21.07.2023
@@ -40,7 +40,23 @@ i) SEBI is actively disuading people to trade F&O: Why do we think so ?
 ii)  If BG's are no longer accepted with the exchange: This will be a game changer, returns will fall to half of what it is ( Looking at the way SEBI is moving, this is very much on the table)
 iii) Issues with Scaling: There is a limitation of Volumes and scale in this game
 iv)  Trading Businesses do not get crazy multiples because of low entry bareers in the business. All you need is capital to start the business. 
+v)   Most businesses that get low multiples and that trade to a discount to Book value are holding businesses,trading businesses and Investment firms. Can be seen in the list attached over here.
+
 
 #### Valuations:
+Date: 21.07.2023
+Market Cap: 788 Crores 
+
+P/E  = 6.7 x
+P/BV = 1.2 x							
+
+The model below is taking a conservative view. Making 8% is not difficult because of a low cost structure. Employee cost is only 5-7 Crores a year. There are no other fixed costs to the business.
+If take a reverse DCF into consideration. Markets taking a 7% Growth Rate for the next 10 years into consideration. 
+
+**Imp**: Growth Rate over here is actually an Input for How much will be earned on the Free Cash Flow, So we are not considering a growth on FCFF but rather a yeild on FCFF since its an investment firm.
+                
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/9d428ddd-c12e-4dd5-b007-bb5aba08199f)
+
+
 
 
