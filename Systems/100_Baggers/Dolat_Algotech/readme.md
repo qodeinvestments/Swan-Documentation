@@ -1,4 +1,4 @@
-![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/82a1838e-a309-420b-adb6-68f1bf361dfc)
+
 ## DOLAT ALGOTECH LTD.  
 
 Updated : 21.07.2023
