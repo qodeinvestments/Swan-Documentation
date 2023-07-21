@@ -4,9 +4,12 @@
 Updated : 21.07.2023
 Updated By: Rishabh Nahar
 ```
-Dolat Algotech is in the business of Prop trading. Trading Futures and Options on the National Stock Exchange. It employees Quant Analysts, Engineers, Software Developers to run operations.  
-They want to make trading a science.Software used by them is made inhouse,Strategies are made inhouse. They primarily run hedged Delta neutral strategies, having no black swan event risk.  
-Hence risk of Losing Capital is negligible. Dolat as a group has been in the stock market business as brokers/traders for a very long time( >30 years). They have a few group cos doing similar 
+Dolat Algotech is in the business of Prop trading. Trading Futures and Options on the National Stock Exchange.
+It employees Quant Analysts, Engineers, Software Developers to run operations.   
+They want to make trading a science.Software used by them is made inhouse,Strategies are made inhouse.  
+They primarily run hedged Delta neutral strategies, having no black swan event risk.    
+Hence risk of Losing Capital is negligible. Dolat as a group has been in the stock market business as brokers/traders  
+for a very long time( >30 years). They have a few group cos doing similar 
 activities too. From 2017 results have been brilliant. 
 ```
 ### Business Outline:
