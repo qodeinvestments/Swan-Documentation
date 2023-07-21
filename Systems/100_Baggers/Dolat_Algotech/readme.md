@@ -9,7 +9,7 @@ They want to make trading a science.Software used by them is made inhouse,Strate
 Hence risk of Losing Capital is negligible. Dolat as a group has been in the stock market business as brokers/traders for a very long time( >30 years). They have a few group cos doing similar 
 activities too. From 2017 results have been brilliant. 
 
-### Business:
+### Business Outline:
 
 They are primarily into trading. Almost all of its profits come from Trading F&O. Since we are in the same business we understand how difficult it is to make money consistently becuase of the elements of 
 i) Curve Fitting ii) Mispricings fading away due to many participants. Inspite of this, these guys have had a great track record. No Loss making month since inception. 2017 to 2023 They have generated 35-40% ROCE 
@@ -17,19 +17,19 @@ on an average. Each Quarter has been profitable. The high ROCE is a factor of ha
 levered up 2x. Leverage is key for a High ROCE. But its important to key risks in check when you lever your book 2x.  
 
 
-#### What Stands Out?
+### What Stands Out?
 
 Over the years we've come across 50-100 Traders and very few have been able to be consistently profitable. Consistently making money means you know something others dont.  
 We know that individual traders cannot have such track records. Its only possible if you have a good team. So they have definetely have built a team and culture to acheive this.  
 We do not know much other than the fine track record and team. We have seen their job postings on their website and Naukri.  
 
 
-#### What leads to such high Returns? 
+### What leads to such high Returns? 
 
 i)  Low Drawdown hedged systems   
 ii) 2x Leverage: Bank Guarantee   
 
-#### What risks do we see?   
+### What risks do we see?   
 
 i) **SEBI is actively disuading people to trade F&O**: Why do we think so ?  
     -Higher STT     
@@ -43,12 +43,12 @@ iii) Issues with **Scaling**: There is a limitation of Volumes and scale in this
 
 iv)  **Trading Businesses do not get crazy multiples** because of low entry bareers in the business. All you need is capital to start the business.     
 
-v)   Most businesses that get low multiples and that trade to a discount to Book value are holding businesses,trading businesses and Investment firms. Can be seen in the list attached over here.  
+v)   Most businesses that get **low multiples** and that trade to a discount to Book value are holding businesses,trading businesses and Investment firms. Can be seen in the list attached over here.  
      In order to make money, people need to like the business and give it a better multiple. Even if we see earnings growth, but **people dont reward this with a better multiple**, it will be hard  
      for this to be a multibagger.  
 
 
-#### Valuations:
+### Valuations:
 Date: 21.07.2023
 Market Cap: 788 Crores 
 
