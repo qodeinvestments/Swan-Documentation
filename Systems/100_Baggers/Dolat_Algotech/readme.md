@@ -31,7 +31,7 @@ ii) 2x Leverage: Bank Guarantee
 
 #### What risks do we see? 
 
-i) SEBI is actively disuading people to trade F&O: Why do we think so ? 
+i) SEBI is actively disuading people to trade F&O: Why do we think so ?  
     -Higher STT 
     -Higher Taxes on F&O 
     -Writing Reports as to how F&O traders dont make money with stats 
