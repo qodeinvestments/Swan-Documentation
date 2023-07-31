@@ -21,10 +21,12 @@ Data holes have been filled with the last available values for that month. On Ex
 Leverage
 10x
 
-Position Sizing:
+## Position Sizing:
+
 In this backtest, we have assigned quantities based on the market caps of the stocks, using minimum share logic.
 Index exposure is calculated by dividing MinShareExposure by MinShareValue.
 Index exp= (minShareExp) / (MinShareValue)
+
 Individual stock exposure= (Index exp) / (stock weight)
 Individual stock qty= (Individual stock exposure)/ (Equity close of that stock)
 Index exposure and total stock exposure will be the same
