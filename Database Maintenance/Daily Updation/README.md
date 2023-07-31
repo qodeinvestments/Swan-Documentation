@@ -14,7 +14,7 @@
 7. This will start the process.
 
 ## Process
-The daily updation is divided into three parts namely uploading raw GDFL file on database, stock options updation , index options updation and equity updation.
+The daily updation is divided into four parts namely uploading raw GDFL file on database, stock options updation , index options updation and equity updation.
 ### Uploading raw GDFL file on database
 1. [This code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/UploadGDFLFileToDatabase.py) will download the zip file from the dropbox folder and unzip it.
 2. We rename the file as NSEFO_date and upload it to the database.
