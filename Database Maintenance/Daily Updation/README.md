@@ -14,7 +14,7 @@
 7. This will start the process.
 
 ## Process
-The daily updation is divided into three parts namely uploading raw GDFL file on database, stock options updation and index options updation.
+The daily updation is divided into three parts namely uploading raw GDFL file on database, stock options updation , index options updation and equity updation.
 ### Uploading raw GDFL file on database
 1. [This code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/UploadGDFLFileToDatabase.py) will download the zip file from the dropbox folder and unzip it.
 2. We rename the file as NSEFO_date and upload it to the database.
@@ -32,7 +32,8 @@ The daily updation is divided into three parts namely uploading raw GDFL file on
 4. The continuous contracts files are stored on the desktop under "Pyspark" folder.
 5. Once these contracts are created, we run the [Append_Code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Daily_Updation_Code.ipynb) to append the contracts to the database.
 
-                                                
+### Equity Updation
+
 
 
 
