@@ -1,9 +1,17 @@
-# Fetch EQ data from GDFL zip files
+# Download stock eq GDFL file
 
-# import libraries
 import pandas as pd
 import os
 import numpy as np
+
+symbols = next(os.walk(r"C:\Data\OptionsDatabaseDailyUpdate\Updation_Temp_Data\cont_data"))[2]
+for i in range(len(symbols)):
+    symbols[i] = symbols[i].replace('-III.csv', '').replace('-II.csv', '').replace('-I.csv', '')
+symbols = sorted(list(set(symbols)))
+print(len(symbols))
+
+indexSymbols = ['INDIA VIX', 'NIFTY 50', 'NIFTY BANK', 'NIFTY FIN SERVICE']
+
 import os
 from imbox import Imbox # pip install imbox
 import traceback
@@ -14,30 +22,18 @@ import struct
 import pandas as pd
 import zipfile
 
-
-# get the list of stock options symbols
-symbols = next(os.walk(r"C:\Data\OptionsDatabaseDailyUpdate\Updation_Temp_Data\cont_data"))[2]
-for i in range(len(symbols)):
-    symbols[i] = symbols[i].replace('-III.csv', '').replace('-II.csv', '').replace('-I.csv', '')
-symbols = sorted(list(set(symbols)))
-print(len(symbols))
-
-# list of index options symbols
-indexSymbols = ['INDIA VIX', 'NIFTY 50', 'NIFTY BANK', 'NIFTY FIN SERVICE']
-
-
-
 # enable less secure apps on your google account
 # https://myaccount.google.com/lesssecureapps
 
 ########################## INPUTS ###########################
 username = "vishwanath.raj@swancapital.in"
-#password = 'qeqsurbstwqhxiqq'
-password = 'qtphrosdvtnfsuee'
+#password = 'qeqsurbstwqhxiqq' # sourav
+password = 'qtphrosdvtnfsuee' # vishwanath
 download_folder = r"C:\Data\StockEQRawFiles\\"
 date = datetime.date(2023, 7, 31)
+startDate = endDate = date
 #date = date.today()
-sendersEmail = 'sourav.chavan@swancapital.in'
+sendersEmail = 'noreply1@globaldatafeeds.in'
 index_eq_path = r"C:\Data\IndexEQ\DailyUpdate\\"
 stock_eq_path = r"C:\Data\StockEQ\DailyUpdate\\"
 #############################################################
@@ -45,7 +41,6 @@ stock_eq_path = r"C:\Data\StockEQ\DailyUpdate\\"
 year = date.strftime('%Y')
 month = date.strftime('%B')
 day = date.strftime('%d')
-
 print(date)
 print(year)
 print(month)
@@ -63,7 +58,6 @@ messages = mail.messages(sent_from=sendersEmail,
                          date__on=date)
 
 download_path = download_folder + '\\' + year + '\\' + month + ' ' + year + '\\' + day
-
 
 #print(download_path)
 if not os.path.exists(download_path):
@@ -88,13 +82,10 @@ for (uid, message) in messages:
 ##        #print(download_path)
 ##        if not os.path.exists(download_path):
 ##            os.makedirs(download_path)
-
-        print('att_fn')
         
         print(att_fn)
-        date1 = att_fn[-12:-4]
+        date1 = att_fn[13:21]
         print(date1)
-        
         download_path1 = download_path + '//' + att_fn
 
         
@@ -119,7 +110,6 @@ for file in os.listdir(download_path):
 
 # stocks
 print(next(os.walk(download_path))[2])
-
 
 df_stocks = pd.read_csv(download_path + '//' + f'GFDLCM_STOCK_{date1}.csv')
 df_stocks['Symbol'] = df_stocks['Ticker'].str.replace('.NSE', '')
@@ -161,7 +151,7 @@ except:
 mail.logout()
 
 
-# Upload Stock EQ data to the database
+# Upload stock eq to the database
 
 import os
 import pandas as pd
@@ -272,15 +262,15 @@ for symbol in tqdm(symbols):
             newSymbol = re.sub('\&|\-', '_', symbol)
             newSymbol = newSymbol
             
-##            delete_query = f'''DROP TABLE IF EXISTS "RawData"."{newSymbol}"'''
-##            cursor.execute(delete_query)
-##            delete_query = f'''DROP TABLE IF EXISTS "AdjustedData"."{newSymbol}"'''
-##            cursor.execute(delete_query)
+            delete_query = f'''DROP TABLE IF EXISTS "RawData"."{newSymbol}"'''
+            cursor.execute(delete_query)
+            delete_query = f'''DROP TABLE IF EXISTS "AdjustedData"."{newSymbol}"'''
+            cursor.execute(delete_query)
 
-##            sql2 = f'''DELETE FROM "AdjustedData"."{newSymbol}" WHERE "Date" = '2023-01-06' '''
+##            sql2 = f'''DELETE FROM "AdjustedData"."{newSymbol}" WHERE "Date" = '2023-07-28' '''
 ##            #print(sql2)
 ##            cursor.execute(sql2)
-##            sql3 = f'''DELETE FROM "RawData"."{newSymbol}" WHERE "Date" = '2023-01-06' '''
+##            sql3 = f'''DELETE FROM "RawData"."{newSymbol}" WHERE "Date" = '2023-07-28' '''
 ##            cursor.execute(sql3)
 
             if newSymbol in stock_dict:
@@ -769,7 +759,7 @@ else:
     base_url =f"https://api.telegram.org/bot6237928541:AAHl267HrSFBRFE-iIajz_x8eNkPydiQEEs/sendMessage?chat_id=-939411532&text={link1}"
     requests.get(base_url)
 
-# Upload Index EQ data to the database
+# Upload Index EQ to the database
 
 #import the modules
 import os
@@ -846,8 +836,6 @@ conn.close()
 print("Done")
 et = time.time()
 print("Elapsed time",et-st)
-
-
 
 
 
