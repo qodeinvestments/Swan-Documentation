@@ -35,7 +35,7 @@ The daily updation is divided into four parts namely uploading raw GDFL file on 
 3. Continuous Contracts are created and stored in the standard format, example of which is - "BANKNIFTYMONTHLY-I40000CE".
 4. The continuous contracts files are stored on the desktop under "Pyspark" folder.
 5. Once these contracts are created, run the "Daily_Updation_Code.ipynb" code which is stored at this path "C:\Data\Codes"
-6. [This_Code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Daily_Updation_Code.ipynb) appends the contracts to the database.
+6. [This Code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Daily_Updation_Code.ipynb) appends the contracts to the database.
 
 ### Equity Updation
 1. [This code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/EquityUpdation.py) is used to download and unzip stock and index equity files from GDFL mail. These unzipped files are then read and segregated into symbolwise csv files. There are two different folders for stocks and indices files namely StockEQ and IndexEQ.
