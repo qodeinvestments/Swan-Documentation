@@ -41,9 +41,27 @@ a) The number of occurrences of each of those buckets for a given year/quarter/m
 b) Probability of type 1-6 days </br>
 c) Returns </br>
 
-3. The number of occurences of each bucket year wise, for a indicator of **R-Squared value** with a threshold of **0.3**, is given below - </br>
+3. The number of occurences of each bucket year wise, for the indicator : **R-Squared value** with a threshold of **0.3**, is given below - </br>
 
 ![image](https://github.com/qodeinvestments/Swan-Documentation/assets/63246619/3ec9ec26-12b0-4870-ac66-a61e6139667f)
 
+and the probability of their occurrences are - </br>
+
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/63246619/885b0c3b-c1ac-4412-b0fe-95efc7feeb25)
+
+4. After analysing the data YoY, QoQ and MoM, we concluded that in the months that lost money, the number of choppy days were significantly higher than trending days. In addition to this, if the market stayed flat i.e it ended where it opened while being choppy, it further brought the P&L down.</br>
+To understand it better, given below is the table for **SID+PSAR** curves. According to the table, the year **2023** for the month **February** was the most loss making month. 
    
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/63246619/c1fdd534-f6d9-4829-a7e7-1b7b93b32b45)
+
+We calculated the count of each bucket for the particular month and year (below are the tables) </br>
+
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/63246619/015f7c0d-412c-4398-9883-d20cd4baff15) ![image](https://github.com/qodeinvestments/Swan-Documentation/assets/63246619/e24a58ae-c9f7-49c0-8ced-0b7d34414487)
+
+As we observe from the tables, when the (probability percentage of buckets 2, 3, 4 and 6) > (probability percentage of buckets 1 and 5), it results in a loss making month.
+
+## CONCLUSION
+
+We concluded that on choppy days, our systems lose money. On Flat and choppy days, the P&L gets affected adversely. 
+
 
