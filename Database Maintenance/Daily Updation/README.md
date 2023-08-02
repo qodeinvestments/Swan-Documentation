@@ -38,9 +38,10 @@ The daily updation is divided into four parts namely uploading raw GDFL file on 
 6. [This Code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Daily_Updation_Code.ipynb) appends the contracts to the database.
 
 ### Equity Updation
+1. Go to the following path : "C:\Users\Administrator\Desktop\" and run the "EquityUpdation.py" code.
 1. [This code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/EquityUpdation.py) is used to download and unzip stock and index equity files from GDFL mail. These unzipped files are then read and segregated into symbolwise csv files. There are two different folders for stocks and indices files namely StockEQ and IndexEQ.
 2. Then files in these folders will be uploaded to the EQ database.
-3. If there are any adjustments in any stock those will be performed in this code only. Make sure to updated the data in adjustment sheets.
-
+3. If there are any adjustments in any stock those will be performed in this code only. Make sure that you have updated the data in adjustment sheets.
+   
 
 
