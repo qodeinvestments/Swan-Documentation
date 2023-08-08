@@ -19,6 +19,8 @@
 6. We maintained 3 different sheets for split/bonus, rights issue and dividend ajdustments to be performed.
 7. We performed all these adjustments on the stocks which had the corporation actions. In some stocks, strike prices were in decimal numbers. In that case, rounded those strikes to the nearest tick size i.e. 0.05. Also we cross checked if these strikes match with new NSE strikes.
 8. For all the symobols we generated 1-min EQ data from e-signal.
+## Errors
+We have documented the errors we faced while creating the options database in [this](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/ErrorsDoc.xlsx) file.
 ## Checks
 1. We checked number of rows for each stock in the raw files and in the final symbol files. In some symbols they were not matching because...  
    a. Symbols had duplicates in the final files.  
