@@ -1,4 +1,6 @@
 # Daily Data Updation Documentation
+The daily updation is divided into four parts namely uploading raw GDFL file on database, stock options updation , index options updation and equity updation. Before starting this process make sure that you have updated the corporate action sheets till the current date. We have "AllAdjustments.csv" file for split and bonus and "RightIssue.xlsx" file for right issue adjustments. These files are stored at this location "C:\Data\CsvFiles\" on the EC2 instance. 
+
 ## Starting the process
 1. Log in to AWS Console. Select the region as SINGAPORE and start the EC2 instance (NSE500) 
 2. Change the region to MUMBAI and start the RDS database (swandatabase).
@@ -14,7 +16,6 @@
 7. This will start the process.
 
 ## Process
-The daily updation is divided into four parts namely uploading raw GDFL file on database, stock options updation , index options updation and equity updation. Before starting this process make sure that you have updated the corporate action sheets till the current date. We have "AllAdjustments.csv" file for split and bonus and "RightIssue.xlsx" file for right issue adjustments. These files are stored at this location "C:\Data\CsvFiles\" on the EC2 instance. 
 
 ### Uploading raw GDFL file on database
 1. [Final.py](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Final.py) code will download the zip file from the dropbox folder and unzip it.
@@ -25,7 +26,7 @@ The daily updation is divided into four parts namely uploading raw GDFL file on 
 2. This labelled data will be split into current month, next month and far month contracts.
 3. Continuous contracts will be then appended to the historical stock options data which is stored on database.
 4. This same code will perform the corporate actions if the corporate actions sheets are updated.
-9. By default this code will generate the stock options data for today, but if need to generate it for a specific date you will have to change the 'date' variable.
+9. By default this code will generate the stock options data for today, but if you need to generate it for a specific date you will have to search IDLE in windows and open the 'Final.py' file and change the 'date' variable.
 
 ### Index Options Updation
 1. Open the jupyter and go to this path "C:\Data\Codes"
