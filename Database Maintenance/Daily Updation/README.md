@@ -29,8 +29,9 @@ The daily updation is divided into four parts namely uploading raw GDFL file on 
 9. By default this code will generate the stock options data for today, but if you need to generate it for a specific date you will have to search IDLE in windows and open the 'Final.py' file and change the 'date' variable.
 
 ### Index Options Updation
-1. Open the jupyter and go to this path "C:\Data\Codes"
-2. Open "Index_Daily_Contracts.ipynb" file and run the code. 
+1. Open cmd and type this command : "cd C:\Data\Codes" and press enter.
+2. Type "jupyter notebook" and press enter.
+3. Open "Index_Daily_Contracts.ipynb" file and run the code. 
 1. [This code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Index_Daily_Contracts.ipynb) is used to create daily continuous contracts for BankNifty, Nifty and FinNifty.
 2. The input will be a "Date".
 3. Continuous Contracts are created and stored in the standard format, example of which is - "BANKNIFTYMONTHLY-I40000CE".
