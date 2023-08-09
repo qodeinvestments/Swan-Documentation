@@ -31,13 +31,14 @@ The daily updation is divided into four parts namely uploading raw GDFL file on 
 ### Index Options Updation
 1. Open cmd and type this command : "cd C:\Data\Codes" and press enter.
 2. Type "jupyter notebook" and press enter.
-3. Open "Index_Daily_Contracts.ipynb" file and run the code. 
-1. [This code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Index_Daily_Contracts.ipynb) is used to create daily continuous contracts for BankNifty, Nifty and FinNifty.
-2. The input will be a "Date".
-3. Continuous Contracts are created and stored in the standard format, example of which is - "BANKNIFTYMONTHLY-I40000CE".
-4. The continuous contracts files are stored on the desktop under "Pyspark" folder.
-5. Once these contracts are created, run the "Daily_Updation_Code.ipynb" code which is stored at this path "C:\Data\Codes"
-6. [This Code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Daily_Updation_Code.ipynb) appends the contracts to the database.
+3. Open "Index_Daily_Contracts.ipynb" file and run the code.
+4. Prompt will ask for an input. Enter current date.
+5. [This code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Index_Daily_Contracts.ipynb) is used to create daily continuous contracts for BankNifty, Nifty and FinNifty.
+6. Continuous Contracts are created and stored in the standard format, example of which is - "BANKNIFTYMONTHLY-I40000CE".
+7. The continuous contracts files are stored on the desktop under "Pyspark" folder.
+8. Once these contracts are created, run the "Daily_Updation_Code.ipynb" code which is stored at this path "C:\Data\Codes".
+9. Prompt will ask for an input. Enter 4 for updating for all the symbols. 
+10. [This Code](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Database%20Maintenance/Daily%20Updation/Codes/Daily_Updation_Code.ipynb) appends the contracts to the database.
 
 ### Equity Updation
 1. Go to the following path : "C:\Users\Administrator\Desktop\" and run the "EquityUpdation.py" code.
