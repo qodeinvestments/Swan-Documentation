@@ -1,5 +1,7 @@
 # Daily Data Updation Documentation
-The daily updation is divided into four parts namely uploading raw GDFL file on database, stock options updation , index options updation and equity updation. Before starting this process make sure that you have updated the corporate action sheets till the current date. We have "AllAdjustments.csv" file for split and bonus and "RightIssue.xlsx" file for right issue adjustments. These files are stored at this location "C:\Data\CsvFiles\" on the EC2 instance. 
+The daily updation is divided into four parts namely uploading raw GDFL file on database, stock options updation , index options updation and equity updation. Before starting this process make sure that you have updated the corporate action sheets till the current date. We have "AllAdjustments.csv" file for split and bonus and "RightIssue.xlsx" file for right issue adjustments. These files are stored at this location "C:\Data\CsvFiles\" on the EC2 instance. In the "RightIssue.xlsx" sheet you have fill the data in "Symbol", "Ex. Date", "Purpose", "Face Value", "Rights Ratio" columns. In the "AllAdjustments.csv" sheet you have to fill the data in "Symbol", "Ex. Date", "Corporate Action" and "NSE Ratio" columns.
+
+We also maintain one sheet "DividendAdjustments.csv" for dividends. Its stored at this location "C:\Data\CsvFiles\". In this sheet you have to fill "Symbol", "Ex. Date", "Corporate Action", "Dividend" columns.
 
 ## Starting the process
 1. Log in to AWS Console. Select the region as SINGAPORE and start the EC2 instance (NSE500) 
