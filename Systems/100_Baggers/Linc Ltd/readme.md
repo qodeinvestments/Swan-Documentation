@@ -30,7 +30,7 @@ Pentonic was launched by the company in 2019, which is a ball pen and gained a l
 <h4>1.1 Pentonic:</h4>
 USP of Pentonic: Minimal, Writing smoothness, Unique Design. It is a very high margin product, with GPM of 40-43% which helps in overall increase in GPM, and contributes to 25-30% of the overall revenue.  
   
-See the Revenue contribution of Pentonic [here.](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Pentonic%20Revenues%20a%20%25.png?raw=true)
+See the Revenue contribution of Pentonic ![here.](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Pentonic%20Revenues%20a%20%25.png)
   
 They’ll be launching several similar products of a little higher price range (premium segment). New products will be added every year or every half year. The Co. bets that Pentonic would be a brand for at least 10-15 years.
 
