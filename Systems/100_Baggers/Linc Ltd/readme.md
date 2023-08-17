@@ -37,8 +37,9 @@ Pentonic was launched by the company in 2019, which is a ball pen and gained a l
   
 <h4>1.1 Pentonic:</h4>
 USP of Pentonic: Minimal, Writing smoothness, Unique Design. It is a very high margin product, with GPM of 40-43% which helps in overall increase in GPM, and contributes to 25-30% of the overall revenue.  
-  
-See the Revenue contribution of Pentonic [here.](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Pentonic%20Revenues%20a%20%25.png)
+
+.  
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Pentonic%20Revenues%20a%20%25.png" width="800">  
   
 They’ll be launching several similar products of a little higher price range (premium segment). New products will be added every year or every half year. The Co. bets that Pentonic would be a brand for at least 10-15 years.
 
@@ -93,7 +94,8 @@ Of the total 75 Crore pens sold in FY23: 50% was produced in-house and 50% outso
   
 <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Touchpoints.png" height="300">  
 
-2. Focus on higher margin products. Most developments under the pentatonic portfolio: 3 products to be launch in FY24. See the PAT margin change YoY [here.](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/PAT%20Margins.png)
+2. Focus on higher margin products. Most developments under the pentatonic portfolio: 3 products to be launch in FY24.
+   <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/PAT%20Margins.png" height="300"> 
 3. Stationery Products: Using the Deli brand, they will make bigger inroads. FY23 Deli Sales: 25Crores will take this to 75Crores by FY25.
 4. Step up Existing Capacity to match the demand: Currently they employ 1200 female workers.
 5. Environmental, Social & Governance: Substituting plastic wrapper packaging with paper bulk packaging. Working on recycling of used pens.
