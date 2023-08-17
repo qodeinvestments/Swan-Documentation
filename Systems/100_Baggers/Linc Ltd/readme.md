@@ -1,12 +1,22 @@
 <img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/logo_files/linc-pentonic-ball-pen.png" width="2000"> 
 
 <h1>LINC LTD.</h1>
+
+<div align="left">
   
 Date: 17/08/2023  
-Market Cap: Rs.933 Crores  
+  
+Market Cap: Rs.933 Crores   
 CMP : 627  
 P/E : 23.1  
 P/B : 5.28  
+  
+Website : https://lincpen.com/
+
+</div>
+
+
+
 
 
 Linc ltd. is primarily engaged in the manufacturing of writing instruments and sale of Pen and Refill. It generates revenue from sale of pen, refill and other stationery products. It has been in this domain from last few decades, and have been focusing on selling only pens ever since. Mostly operating in two categories : Rs.5 and Rs.10 Ball and gel pens. Most of the Rs.5 pens
@@ -86,7 +96,7 @@ Of the total 75 Crore pens sold in FY23: 50% was produced in-house and 50% outso
 2. Focus on higher margin products. Most developments under the pentatonic portfolio: 3 products to be launch in FY24. See the PAT margin change YoY [here.](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/PAT%20Margins.png)
 3. Stationery Products: Using the Deli brand, they will make bigger inroads. FY23 Deli Sales: 25Crores will take this to 75Crores by FY25.
 4. Step up Existing Capacity to match the demand: Currently they employ 1200 female workers.
-
+5. Environmental, Social & Governance: Substituting plastic wrapper packaging with paper bulk packaging. Working on recycling of used pens.
 
 <h4>3.2 Three main ideas: </h4>
 
