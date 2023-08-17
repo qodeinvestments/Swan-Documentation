@@ -1,11 +1,21 @@
+[fin]: https://www.screener.in/company/LINC/
+[products]: https://www.flairpens.com/metal-pens.html
+[capex]: https://eresh-zealous.medium.com/
+[strategy]: https://eresh-zealous.medium.com/
+[ind]: https://www.verifiedmarketresearch.com/product/india-writing-instruments-market/
+[investor_relations]: https://lincpen.com/investor-relations
+[concall]: https://www.bseindia.com/corporates/download/367392/01_Flair_Writing_Industries_Limited_DRHP_dated_July_14_2023_20230718155047.pdf
+
 
 <div align="center">
   
-##  Flair DRHP. $~$ [<img alt="Java" width="30px" src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/logo_files/Pdf%20Logo%201.png" />][drhp]
+##  FY22 Q4: Flair DRHP $~$ [<img alt="Java" width="30px" src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/logo_files/Pdf%20Logo%201.png" />][concall]
 ####  Updated by: Rishabh Nahar/Purnanand Kulkarni
-####  Date: 16.08.2023
+####  Date: 17.08.2023
 
 </div>
+
+
 
 
 
@@ -13,8 +23,10 @@
 #### Financials:   [<img align="centre" alt="Java" width="30px" src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/logo_files/Financials%20Logo%201.png" />][fin]
 ```diff
 
+! The co. has been growing its revenue at a rate of 14.5% p.a., and PAT at 16.6% p.a.
+! It has a debt of about 96 Crs.
+! Has an ROCE of about 33%
 ! 
-
 ```
 
 
@@ -47,7 +59,8 @@ In Crores'
 ```diff
 
 - They manufacture pens and other products from 11 manufacturing facilities in Maharashtra,Daman,Diu, Dehradun, Uttarakhand
-- Major Manufacturing Facilities are in: Naigaon, Daman, Dehradun and Valsad
+- Major Manufacturing Facilities are in: Naigaon, Daman, Dehradun and Valsad  
+- They have been consistently spending on Capex for last many years : On an average of 20-40 Cr every year.
 - Facility Capacity table below: 
 ```
 ![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/aa527e21-4e09-4c9a-b9b5-7b873d809519)
@@ -76,9 +89,13 @@ In Crores'
 ```diff
 
 @@ Overall pens can be classified two sub segments based on price points: i)Mass market <Rs.15 and ii)High Value >Rs.15 @@
-@@ Mass Market Pens: i) Driven by price ii)Difficult to increase price iii)Brand Recall is moderate iv)Focuse Group: Students, Corporates
-@@                   v) Essential to have deep retail penetration@@
-@@ High Value Pens: i) Driven by volumes and price ii)Premium built on branding iii) Brand leverage is high @@
+@@ Mass Market Pens: @@
+@@                   i)  Driven by price  @@
+@@                   ii) Difficult to increase price  @@
+@@                   iii)Brand Recall is moderate  @@
+@@                   iv) Focuse Group: Students, Corporates  @@
+@@                   v)  Essential to have deep retail penetration @@  
+@@ High Value Pens: i) Driven by volumes and price  ii)Premium built on branding  iii) Brand leverage is high @@
 @@ Overall the writing instruments market is classified through a) Pens b)Pencils c)Markers and Highlighters@@
 @@ Mass Market: 65-70% of Value , Mid-Premium: 15-20% and Premium: 5-10%@@
 @@ Pens contribute to 65-70% of Writing Exports: Total Writing Exports: Rs.2500 Crores of which Flair is 8% = 180 Crores@@
@@ -106,6 +123,6 @@ In Crores'
 
 
 <div align="center">
- Website : https://lincpen.com/
+ Website : https://flairpens.com/index.html
 </div>
 
