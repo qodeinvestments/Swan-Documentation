@@ -33,7 +33,10 @@
  
 
 ```
+In Crores'
+
 ![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/60ad585b-c5ec-4f04-bcef-7bc61a3f410d)
+
 ![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/21725277-6d52-47b5-9130-1e080f8b6d7e)
 
 
