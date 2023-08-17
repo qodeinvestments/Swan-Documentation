@@ -61,7 +61,7 @@ Morris Linc Private Limited (Subsidiary Co.) is a leading stationery manufacture
 Generally it takes 6 months to design and develop a product. Products are designed by top class engineers and designers. Once the product is designed they have it launched in a few markets like a test run: For 1-2 months. If it does well then full launch.
 
 
-<h2> 2. EXPORT & SALES: </h2> 
+<h2> 2. EXPORT & SALES </h2> 
   
 Primary consumers are school students. Hence the business goes through some seasonality. Hence during Q1 because of school holidays and vacations consumption sees a drop.  
 Production is 50:50 In-house and outsourced just like many other FMCG manufacturers. Helps during lean periods.  
@@ -75,7 +75,7 @@ But not running any TV campaigns because they do not have the budget. Since marg
 Gross profit margin is highly affected by Crude & Polymer prices (RAW Material Cost is directly proportional to Crude & Polymer Prices).  
 And is now a debt free company.  
 
-<h2> 3. EXPANSION PLANS: </h2> 
+<h2> 3. EXPANSION PLANS </h2> 
   
 Modular expansion of existing capacity is being done near the existing factory. Current basic infra has been completed to take the 20lakh pens per day (doubling it).   
   
@@ -112,7 +112,7 @@ Earlier they were never targeting new retailers and kiranas, they only sold thro
   
 Management sees them as a FMCG co. They want to be the Colgate of pens.  
 
-<h2> 4. INDUSTRY: </h2> 
+<h2> 4. INDUSTRY </h2> 
   
 - Market Share of Linc Ltd: 8% in the pen segment.  
 - Pens market to grow at 7-8% p.a.   
@@ -129,7 +129,7 @@ Main players are:
 4. Rorito
 
   
-<h2> 5. FUTURE GROWTH: </h2> 
+<h2> 5. FUTURE GROWTH </h2> 
 
 It is expecting to get the following results:  
 **FY24:**  
