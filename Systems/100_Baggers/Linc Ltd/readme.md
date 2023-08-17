@@ -1,4 +1,7 @@
 
+
+<img src="C:\Users\admin\Desktop\Purnanand\Others\linc-pentonic-ball-pen.png" width="600"> 
+
 ### Linc Ltd.
 
 Date: 04.08.2023  
@@ -27,7 +30,7 @@ Pentonic was launched by the company in 2019, which is a ball pen and gained a l
 <h4>1.1 Pentonic:</h4>
 USP of Pentonic: Minimal, Writing smoothness, Unique Design. It is a very high margin product, with GPM of 40-43% which helps in overall increase in GPM, and contributes to 25-30% of the overall revenue.  
   
-See the Revenue contribution of Pentonic [here.]()
+See the Revenue contribution of Pentonic [here.](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Pentonic%20Revenues%20a%20%25.png)
   
 They’ll be launching several similar products of a little higher price range (premium segment). New products will be added every year or every half year. The Co. bets that Pentonic would be a brand for at least 10-15 years.
 
@@ -56,7 +59,7 @@ Primary consumers are school students. Hence the business goes through some seas
 Production is 50:50 In-house and outsourced just like many other FMCG manufacturers. Helps during lean periods.  
 Currently their main way of selling is through retailers. They keep good relations with retailers and keep giving them good display units to keep. Rs.10 Products contribute to 60% of Revenues. < Rs.10 is 40% of Revenues.  
 
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Table%2009-17.png" height="50">  
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Exports%20%25.png" height="45">  
 
 Currently exporting to 40-50 Countries: Africa, Middle East, Russia, Brazil, North America.  
 Currently advertising is 3% of Sales. And Ads are run using print media, social media campaigns and few outdoor cities.  
@@ -80,9 +83,9 @@ Of the total 75 Crore pens sold in FY23: 50% was produced in-house and 50% outso
    
    Increase touchpoints. Currently Linc has reached 2.4L outlets & aiming to take this number to 5L by FY25. It has been growing its touchpoints consistently from a long time. It has decided to target Kiranas stores now to sell their pens. India has 10 million kirana outlets (which will be the target for touchpoints now). No one has ever targeted the kirana segment to sell pens except them.
   
-<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/QGF/Backtest_Code/Python%20Codes/pngs/Table%2009-17.png" height="300">  
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Touchpoints.png" height="300">  
 
-2. Focus on higher margin products. Most developments under the pentatonic portfolio: 3 products to be launch in FY24. See the PAT margin change YoY [here.]()
+2. Focus on higher margin products. Most developments under the pentatonic portfolio: 3 products to be launch in FY24. See the PAT margin change YoY [here.](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/PAT%20Margins.png)
 3. Stationery Products: Using the Deli brand, they will make bigger inroads. FY23 Deli Sales: 25Crores will take this to 75Crores by FY25.
 4. Step up Existing Capacity to match the demand: Currently they employ 1200 female workers.
 
@@ -108,12 +111,16 @@ Management sees them as a FMCG co. They want to be the Colgate of pens.
 - Worldwide Uniball sales are around 5000 Crores (Sold by Mitsubishi Japan Co.): This shows that Linc has big headroom over here.  
 - Industry is fragmented: It has a low entry barrier.  
 
+
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Competitors.png" width="600">  
+  
 Main players are: 
 1. Cello 
 2. Flair (About to get listed) 
 3. Reynolds 
 4. Rorito
 
+  
 <h2> 5. FUTURE GROWTH: </h2> 
 
 It is expecting to get the following results:  
