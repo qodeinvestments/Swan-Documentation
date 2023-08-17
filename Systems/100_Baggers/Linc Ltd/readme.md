@@ -1,14 +1,12 @@
+<img src="https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/logo_files/linc-pentonic-ball-pen.png" width="2000"> 
 
-
-<img src="C:\Users\admin\Desktop\Purnanand\Others\linc-pentonic-ball-pen.png" width="600"> 
-
-### Linc Ltd.
-
-Date: 04.08.2023  
-Market Cap: Rs.976 Crores  
-CMP : 473  
-P/e: 24.2  
-P/B: 5.49  
+<h1>LINC LTD.</h1>
+  
+Date: 17/08/2023  
+Market Cap: Rs.933 Crores  
+CMP : 627  
+P/E : 23.1  
+P/B : 5.28  
 
 
 Linc ltd. is primarily engaged in the manufacturing of writing instruments and sale of Pen and Refill. It generates revenue from sale of pen, refill and other stationery products. It has been in this domain from last few decades, and have been focusing on selling only pens ever since. Mostly operating in two categories : Rs.5 and Rs.10 Ball and gel pens. Most of the Rs.5 pens
@@ -30,7 +28,7 @@ Pentonic was launched by the company in 2019, which is a ball pen and gained a l
 <h4>1.1 Pentonic:</h4>
 USP of Pentonic: Minimal, Writing smoothness, Unique Design. It is a very high margin product, with GPM of 40-43% which helps in overall increase in GPM, and contributes to 25-30% of the overall revenue.  
   
-See the Revenue contribution of Pentonic [here.](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Pentonic%20Revenues%20a%20%25.png?raw=true "ABC")
+See the Revenue contribution of Pentonic [here.](https://github.com/qodeinvestments/Swan-Documentation/blob/main/Systems/100_Baggers/github_pages/Financial%20Graphs/Pentonic%20Revenues%20a%20%25.png)
   
 They’ll be launching several similar products of a little higher price range (premium segment). New products will be added every year or every half year. The Co. bets that Pentonic would be a brand for at least 10-15 years.
 
@@ -141,8 +139,7 @@ Starting with stationary products of Deli, will make them understand the station
 Since the co. is targeting Kiranas to sell pens, alongside the stationeries, it is the only company to do so.  
 It is aiming on increasing its market share from 8% to at least 20%.  
   
-**Their vision is that Pentonic is going to be the largest single pen brand. Overall they are going big on pentatonic space. They want that to be a household name.   **
+**Their vision is that Pentonic is going to be the largest single pen brand. Overall they are going big on pentatonic space. They want that to be a household name.**  
   
----
 In conclusion, our analysis highlights the company's remarkable strengths, including diversified revenue streams, successful product innovations, and a clear growth strategy.
 However, challenges such as margin pressures and effective strategy execution need attention. 
