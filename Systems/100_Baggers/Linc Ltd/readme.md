@@ -5,7 +5,8 @@
 <div align="left">
   
 Date: 17/08/2023  
-  
+Updated By: Purnanand Kulkarni
+
 Market Cap: Rs.933 Crores   
 CMP : 627  
 P/E : 23.1  
@@ -155,3 +156,43 @@ It is aiming on increasing its market share from 8% to at least 20%.
   
 In conclusion, our analysis highlights the company's remarkable strengths, including diversified revenue streams, successful product innovations, and a clear growth strategy.
 However, challenges such as margin pressures and effective strategy execution need attention. 
+
+<h2> 6. Conclusion </h2> 
+
+Linc as a business has a strong network of Distributors and suppliers. Currently that is the strongest point amongst all factors. Through a grinding process over the years
+they have built a strong foundation. The Rs.5 pen market is very competitive and has no brand value. It is completely dependent on price. No price increase in RMs can be 
+passed on to the consumer. If you increase prices over here the consumer will shift to another pen. The margins in the Rs.5 pen market is low. Up until 2019, the Company
+was heavily dependent on its Linc Rs.5 pen. Post 2019, they have shifted to pentatonic. As per the management plans, they are heavy on pentatonic as a brand. They has seen 
+that the higher margin products hit the bottom line a lot better, hence makes sense to invest time and money over here. 
+
+Positives: 
+1. Consistent FMCG business, Strong foundation for growth due to a strong distribution network,
+2. Good mix of products,Diverse product Range: Linc, Pentatonic, Uniball, Deli: I know of Uniball since i was a kid- its been a very stick product. 
+3. Has been doing capex for future growth- so they do not hoard onto cash, they keep reinvesting the cash. Cash reinvested. Management has a growth mindset. 
+4. This could be a 40-50pe  business. There are examples of flair and cello that have done this well. 
+5. Also Uniball owns 13-15% of Linc. 
+
+Negatives: 
+1. Industry is slow moving: Only grows at 6-7% p.a
+2. Low entry barrier businesss- lots of small unorganised players
+3. Unable to pass on increase in prices to the consumer becuase of the lack of brand loyaltly( in the lower category) 
+4. Has never seen great cash flows because of constant capex for future growth in sales
+5. 
+
+Ultimately the future of this business will depend on how the promoters are able to shift to higher margin products and a more diverse product range. IF they stick to pens only,
+this looks hard. But if you see examples of Flair/Cello, they took advantage of their strong distribution and are now selling bottles/chairs etc. The key is diversify into 
+higher margin products.
+Is the management aware about this and are they doing something about it? - Yes they know the higher margin products can really swell the bottomline. They have started moving to higher margin
+products already, and they have a good range with Uniball and Deli. 
+
+**The BIG QUESTION**: Can Linc See big Growth in Sales? The industry is slow moving, and i dont think this is going to change going ahead. Look at Flair: They have grown Sales at 13-14% p.a over the
+past decade. At Max in the pens segments they can grow at 12-15% - to do a 25% Growth rate they need to diversify into multiple products and multiple brands. Only pens is not enough. Uniball is also
+a slow moving item in India. They have been with Linc since 20-25 Years. Deli is also stationery brand. 
+
+<h2> 6. DCF </h2> 
+
+			
+![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/fa02a4b9-b7e4-4ac7-8b5d-e4c7590e0b34)
+
+
+
