@@ -196,7 +196,7 @@ Look at Flair: They have grown Sales at 13-14% p.a over the past decade. At Max 
 The past 10 year Avg. ROCE has been 13-15%p.a. Going ahead if they it needs to cross 20%+ there needs to expansion in sales and margins. Already in the current year we can see, 
 with better margins and better product mix, ROCE% was at 31%. 
 
-<h2> 6. DCF </h2> 
+<h2> 7. DCF </h2> 
 
 			
 ![image](https://github.com/qodeinvestments/Swan-Documentation/assets/67407393/fa02a4b9-b7e4-4ac7-8b5d-e4c7590e0b34)
