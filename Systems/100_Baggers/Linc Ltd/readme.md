@@ -192,6 +192,14 @@ Yes they know the higher margin products can really swell the bottomline. They h
 The industry is slow moving, and i dont think this is going to change going ahead.The overall writing instruments industry is growing slowly and that wont change.
 Look at Flair: They have grown Sales at 13-14% p.a over the past decade. At Max in the pens segments they can grow at 12-15% - to do a 25% Growth rate they need to diversify into multiple products and multiple brands. Only pens is not enough. Uniball is also a slow moving item in India. They have been with Linc since 20-25 Years. Deli is also stationery brand. 
 
+**Can they operationally handle the big growth?**
+The big growth will come from diverse range of product categories and not only pens. Currently as a family run business, they manage 7-8 factories in different locations.
+For other product categories they have always looked outside: Eg. Uniball, Deli and Morris. I dont think they have the capacity to produce these products inhouse. 
+It is difficult to manage multiple products without having your own manufacturing. And I dont think they are going down that road. So how will the growth come?
+The only way is through margin expansions from here on. Flair has 45% Gross Margins. About 10-12% more than Linc. Can linc do these margins. 
+
+
+
 **What have been the past 10 year ROCE's? Can ROCE% be 20%+ for the next 10 years**
 The past 10 year Avg. ROCE has been 13-15%p.a. Going ahead if they it needs to cross 20%+ there needs to expansion in sales and margins. Already in the current year we can see, 
 with better margins and better product mix, ROCE% was at 31%. 
