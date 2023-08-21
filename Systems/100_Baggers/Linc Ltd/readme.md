@@ -170,24 +170,31 @@ Positives:
 2. Good mix of products,Diverse product Range: Linc, Pentatonic, Uniball, Deli: I know of Uniball since i was a kid- its been a very stick product. 
 3. Has been doing capex for future growth- so they do not hoard onto cash, they keep reinvesting the cash. Cash reinvested. Management has a growth mindset. 
 4. This could be a 40-50pe  business. There are examples of flair and cello that have done this well. 
-5. Also Uniball owns 13-15% of Linc. 
+5. Also Uniball owns 13-15% of Linc.
+6. Good Recent Quarterly Performance: Good traction seen quarterly basis
+7. They have never had a sales degrowth- Year on Year sales have grown. So chances of Degrowth are almost 0. 
 
 Negatives: 
 1. Industry is slow moving: Only grows at 6-7% p.a
 2. Low entry barrier businesss- lots of small unorganised players
 3. Unable to pass on increase in prices to the consumer becuase of the lack of brand loyaltly( in the lower category) 
 4. Has never seen great cash flows because of constant capex for future growth in sales
-5. 
+5. ROE's/ROCE's have been unstable- the economics of the business never looked great. 
 
 Ultimately the future of this business will depend on how the promoters are able to shift to higher margin products and a more diverse product range. IF they stick to pens only,
 this looks hard. But if you see examples of Flair/Cello, they took advantage of their strong distribution and are now selling bottles/chairs etc. The key is diversify into 
 higher margin products.
-Is the management aware about this and are they doing something about it? - Yes they know the higher margin products can really swell the bottomline. They have started moving to higher margin
-products already, and they have a good range with Uniball and Deli. 
+Is the management aware about this and are they doing something about it? - 
+Yes they know the higher margin products can really swell the bottomline. They have started moving to higher margin products already, and they have a good range with Uniball and Deli. 
 
-**The BIG QUESTION**: Can Linc See big Growth in Sales? The industry is slow moving, and i dont think this is going to change going ahead. Look at Flair: They have grown Sales at 13-14% p.a over the
-past decade. At Max in the pens segments they can grow at 12-15% - to do a 25% Growth rate they need to diversify into multiple products and multiple brands. Only pens is not enough. Uniball is also
-a slow moving item in India. They have been with Linc since 20-25 Years. Deli is also stationery brand. 
+**The BIG QUESTION**: 
+**Can Linc See big Growth in Sales?** 
+The industry is slow moving, and i dont think this is going to change going ahead.The overall writing instruments industry is growing slowly and that wont change.
+Look at Flair: They have grown Sales at 13-14% p.a over the past decade. At Max in the pens segments they can grow at 12-15% - to do a 25% Growth rate they need to diversify into multiple products and multiple brands. Only pens is not enough. Uniball is also a slow moving item in India. They have been with Linc since 20-25 Years. Deli is also stationery brand. 
+
+**What have been the past 10 year ROCE's? Can ROCE% be 20%+ for the next 10 years**
+The past 10 year Avg. ROCE has been 13-15%p.a. Going ahead if they it needs to cross 20%+ there needs to expansion in sales and margins. Already in the current year we can see, 
+with better margins and better product mix, ROCE% was at 31%. 
 
 <h2> 6. DCF </h2> 
 
