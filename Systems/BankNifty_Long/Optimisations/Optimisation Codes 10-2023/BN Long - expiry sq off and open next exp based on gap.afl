@@ -1,0 +1,227 @@
+#include <BankNiftyWeeklyStrikePriceSelector.afl>
+
+maxpos = 2;//Optimize("maxpos",1,1,5,1);
+SetOption("initialEquity",10000000);
+SetPositionSize(1/maxpos,spsPercentOfEquity);
+
+SetOption("maxopenpositions",maxpos);
+SetTradeDelays(0,0,0,0);
+SetOption("priceboundchecking",False);
+SetOption("DisableRuinStop",True);
+
+DiwaliDates = DateNum()!=1111026 AND DateNum()!=1121113 AND DateNum()!=1131103 AND DateNum()!=1141023 AND DateNum()!=1151111 AND DateNum()!=1161030 AND DateNum()!=1171019 AND DateNum()!=1181107 AND DateNum()!=1191027 AND DateNum()!=1201114 AND DateNum()!=1211104;
+
+tn=TimeNum();
+
+Cases = Optimize("Cases",1,0,8,1);
+//GapFilter = Optimize("gapfilter",20,20,60,10);
+//Cases = 2;
+if(cases == 0){Entrytime = 093000;GapFilter = 30;NextDayExitTime  = 091600;}
+if(cases == 1){Entrytime = 103000;GapFilter = 40;NextDayExitTime  = 091800;}
+if(cases == 2){Entrytime = 113000;GapFilter = 40;NextDayExitTime  = 092000;}
+if(cases == 3){Entrytime = 120000;GapFilter = 50;NextDayExitTime  = 092200;}
+if(cases == 4){Entrytime = 130000;GapFilter = 30;}//loss=IIf(DayOfWeek()==1,40,IIf(DayOfWeek()==2,80,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+if(cases == 5){Entrytime = 133000;GapFilter = 40;}//loss=IIf(DayOfWeek()==1,20,IIf(DayOfWeek()==2,60,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+if(cases == 6){Entrytime = 140000;GapFilter = 30;}//loss=IIf(DayOfWeek()==1,20,IIf(DayOfWeek()==2,60,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+if(cases == 7){Entrytime = 143000;GapFilter = 30;}
+if(cases ==8){Entrytime = 130000;GapFilter = 60;}//loss=IIf(DayOfWeek()==1,40,IIf(DayOfWeek()==2,80,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+if(cases == 9){Entrytime = 133000;GapFilter = 50;}//loss=IIf(DayOfWeek()==1,20,IIf(DayOfWeek()==2,60,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+if(cases == 10){Entrytime = 140000;GapFilter = 50;}//loss=IIf(DayOfWeek()==1,20,IIf(DayOfWeek()==2,60,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+if(cases == 11){Entrytime = 143000;GapFilter = 50;}
+TimeFrameSet(inDaily);
+	weeklyexpiry1 =IIf(DateNum()<1230901,DayOfWeek() == 4 OR (DayOfWeek() < 4 AND Ref(DayOfWeek(),1) > 4) OR (DayOfWeek() < 4 AND Ref(DayOfWeek(),1) <= DayOfWeek()),DayOfWeek() == 3 OR (DayOfWeek() < 3 AND Ref(DayOfWeek(),1) > 3) OR (DayOfWeek() < 3 AND Ref(DayOfWeek(),1) <= DayOfWeek()));
+	dayone2 = (Ref(weeklyexpiry1,-1));
+TimeFrameRestore();
+weeklyexpiry = TimeFrameExpand(weeklyexpiry1,inDaily,expandFirst);
+dayone = TimeFrameExpand(Ref(weeklyexpiry1,-1),inDaily,expandFirst);
+
+//EntryTime  = 103000;
+noentrytime=150000;
+ExitTime  = 151500;
+NextDayExitTime  = 092000;
+
+
+open1=Aux1;//IIf(weeklyexpiry,aux1,Open);
+close1=Aux2;//IIf(weeklyexpiry,aux2,close);
+OpBar1=ValueWhen(TimeNum()<=120000 AND IIf(weeklyexpiry,open1,Open)!=0,IIf(weeklyexpiry,open1,Open));
+OpBar = ValueWhen(DateNum()!=Ref(DateNum(),-1),IIf(weeklyexpiry,open,Open));
+OpBar2 = ValueWhen(DateNum()!=Ref(DateNum(),-1),IIf(weeklyexpiry,open1,Open));
+
+if(cases<=3 OR cases>=8){
+IntradayGap = (IIf(weeklyexpiry,close,close)/OpBar-1)*100;
+
+IntradayGap2 = (IIf(weeklyexpiry,close1,close)/OpBar2-1)*100;
+}//GapFilter = 50;//Optimize("gapfilter",10,10,90,10);
+else{
+IntradayGap = (IIf(weeklyexpiry,close,close)/OpBar1-1)*100;
+IntradayGap2 = (IIf(weeklyexpiry,close1,close)/OpBar1-1)*100;
+}
+
+/*
+maxgap=Optimize("maxgap",75,75,200,25);
+multiplier=Optimize("multiplier",1,1.5,4,0.5);
+mult=iif(intradaygap<maxgap,1,multiplier);
+SetPositionSize(1/maxpos/mult,spsPercentOfEquity);
+*/	
+GapCond = IntradayGap >GapFilter;
+GapCond2 = IntradayGap2 >GapFilter;
+
+bi = BarIndex();
+exitlastbar = bi == LastValue(bi-1);    
+
+nextday_exittime=092000;
+
+//c1=Close;
+Low=Aux2;
+
+Buy =  ( IIf(weeklyexpiry AND TimeNum()>ExitTime,Gapcond2 AND strikepriceselector,TimeNum()>Entrytime AND IIf(weeklyexpiry,TimeNum()<noentrytime,1) AND StrikePriceSelector == 1 AND Gapcond AND diwalidates));// AND type=="CE";
+//Buy = TimeNum()>Entrytime AND IIf(weeklyexpiry,TimeNum()<noentrytime,1) AND StrikePriceSelector == 1 AND Gapcond AND diwalidates;// AND type=="CE";
+
+BuyPrice = IIf(weeklyexpiry AND timeNum()>noentrytime,low,close);
+Buyday = ValueWhen(Buy==1,DateNum());
+WeeklyExpiryLastbar = IIf( DateNum()==weeklyexpiry AND Day() != Ref(Day(),1),1,0);
+weeklyexpiryday=iif(IsNull(ValueWhen(weeklyexpiry,DateNum())),0,ValueWhen(weeklyexpiry,DateNum()));
+Sell =IIf(weeklyexpiry AND TimeNum()<=ExitTime AND TimeNum()>noentrytime,TimeNum()==exittime,(DateNum()!=buyday AND TimeNum()>=NextDayExitTime) OR exitlastbar);// IIf(		buyday==weeklyexpiryday,TimeNum()>=ExitTime OR DateNum()!=Ref(DateNum(),1),TimeNum()==NextDayExitTime) OR exitlastbar;
+//Sell = IIf(		buyday==weeklyexpiryday,TimeNum()>=ExitTime OR DateNum()!=Ref(DateNum(),1),DateNum()!=buyday AND TimeNum()>=NextDayExitTime) OR exitlastbar;
+SellPrice = Close;//IIf(Ref(H,1)>strig, Max(Ref(Open,1),strig),Ref(Close,1));//Close;
+
+buy = ExRem(Buy,Sell);
+Sell = ExRem(Sell,Buy);
+
+tn=TimeNum();
+dn = DateNum();
+priceatbuy=0;
+newDay = dn != Ref( dn, -1 );
+
+tradeCount = onBuy = 0;
+count1=1;
+ticker="";
+buydate=0;
+temp1=0;
+/*
+for( i = 0; i < BarCount-1; i++ )
+{	
+	if( newDay[ i ] ) {
+		tradeCount = 0;
+		ticker="";
+		temp1=0;
+	}
+	if(Buy[i])
+	{
+		buydate=dn[i];
+		ticker=Name();
+	}
+	if(dn[i]!=buydate AND tn[i]>=NextDayExitTime AND  (weeklyexpiry[i] AND tn[i]>noentrytime))
+	{
+		Sell[i]=1;
+		SellPrice[i]=Close[i];
+	}
+	else if (weeklyexpiry[i] AND tn[i]>noentrytime AND tn[i]>=exittime AND temp1=0)
+	{
+		Sell[i]=1;
+		SellPrice[i]=Close[i];
+		if (ticker==Name())
+		{
+			Buy[i]=1;
+			BuyPrice[i]=Low[i];
+			buydate=dn[i];
+			temp1=1;
+		}
+	
+	}
+	if(Sell[i]==1  )
+	{	
+		buydate=0;temp1=0;
+	}
+
+
+}
+
+
+
+
+for( i = 0; i < BarCount; i++ )
+{	
+	if( newDay[ i ] ) {
+		tradeCount = 0;
+		ticker="";}
+	if (Buy[i])
+		ticker=Name();
+    if( i>0 AND weeklyexpiry[i] AND Sell[i] AND tn[i]>NextDayExitTime[i] AND strikepriceselector[i] )
+    {
+		Buy[i]=1;
+		BuyPrice=Low[i];
+
+	}
+	if(i>0 AND weeklyexpiry[i-1] AND newDay[ i ] )
+		Sell[i]=1;
+	if (Sell[i] AND tn[i]>NextDayExitTime[i])
+		ticker="";
+}
+*/
+
+
+SetCustomBacktestProc("");
+
+if(Status("action") == actionPortfolio)   
+{   
+	bo = GetBacktesterObject();
+	bo.Backtest();
+	
+	
+	//AddToComposite(bo.EquityArray,"1~~~BNLong_ThursNextExp_" + NumToStr(Entrytime,1) + "_" + NumToStr(GapFilter,1) ,"C",atcFlagDeleteValues | atcFlagEnableInPortfolio );			
+	/*
+	if(cases<4)
+	AddToComposite(bo.EquityArray,"2~~~~BNLong_basecase_" + NumToStr(Entrytime,1) + "_"  .+ NumToStr(GapFilter,1) ,"C",atcFlagDeleteValues | atcFlagEnableInPortfolio );			
+	else if (cases>3 AND cases<8)
+	AddToComposite(bo.EquityArray,"2~~~~BNLong_basecase_late_12pmopen_" + NumToStr(Entrytime,1) + "_" + NumToStr(GapFilter,1) ,"C",atcFlagDeleteValues | atcFlagEnableInPortfolio );			
+	else if (cases>=8 )
+	AddToComposite(bo.EquityArray,"2~~~~BNLong_basecase_late_dayopen_" + NumToStr(Entrytime,1) + "_" + NumToStr(GapFilter,1) ,"C",atcFlagDeleteValues | atcFlagEnableInPortfolio );			
+	*/
+} 
+
+Filter = 1;
+//AddColumn(PortEquity,"PortEquity",1.4);
+//AddColumn(WeeklyExpiryDate,"WED",1);
+AddColumn(open,"open");
+AddColumn(high,"high");
+
+AddColumn(close,"Close");
+
+AddColumn(aux1,"aux1");
+AddColumn(open1,"open1");
+
+AddColumn(aux2,"aux2");
+AddColumn(close1,"close1");
+AddColumn(weeklyexpiry,"weekklyexpiry");
+AddColumn(dayone,"dayone");
+
+AddColumn(opbar,"opbar");
+AddColumn(opbar1,"opbar1");
+AddColumn(BankNiftyClose,"BankNiftyClose");
+AddColumn(Buy,"Buy");
+AddColumn(BuyPrice,"BuyPrice");
+
+AddColumn(intradaygap,"intradaygap");	
+AddColumn(intradaygap2,"intradaygap2");	
+
+AddColumn(gapcond,"gapcond");
+AddColumn(Sell,"Sell");
+AddColumn(SellPrice,"SellPrice");
+
+//AddColumn(weeklyexpirydate,"weeklyexpiry");
+//AddColumn(tom,"tom");
+//AddColumn(IIf(tom>weeklyexpirydate,1,0),"diff");
+//AddColumn(weeklyexpirylastbar,"weeklyexpirylastbar");
+
+
+_SECTION_BEGIN("Price1");
+SetChartOptions(0,chartShowArrows|chartShowDates);
+_N(Title = StrFormat("{{NAME}} - {{INTERVAL}} {{DATE}} Open %g, Hi %g, Lo %g, Close %g (%.1f%%) {{VALUES}}", O, H, L, C, SelectedValue( ROC( C, 1 ) ) ));
+Plot( C, "Close", ParamColor("Color", colorDefault ), styleNoTitle | ParamStyle("Style") | GetPriceStyle() ); 
+_SECTION_END();
+
+_SECTION_BEGIN("ATR1");
+periods = Param( "Periods", 15, 1, 200, 1 );
+Plot( ATR(periods), _DEFAULT_NAME(), ParamColor( "Color", colorCycle ), ParamStyle("Style") );
+_SECTION_END();

@@ -1,0 +1,229 @@
+#include <BankNiftyWeeklyStrikePriceSelector.afl>
+
+maxpos = 2;//Optimize("maxpos",1,1,5,1);
+SetOption("initialEquity",10000000);
+SetPositionSize(1/maxpos,spsPercentOfEquity);
+SetOption("maxopenpositions",maxpos);
+SetTradeDelays(0,0,0,0);
+//SetOption("priceboundchecking",False);
+SetOption("DisableRuinStop",True);
+
+DiwaliDates = DateNum()!=1111026 AND DateNum()!=1121113 AND DateNum()!=1131103 AND DateNum()!=1141023 AND DateNum()!=1151111 AND DateNum()!=1161030 AND DateNum()!=1171019 AND DateNum()!=1181107 AND DateNum()!=1191027 AND DateNum()!=1201114 AND DateNum()!=1211104;
+
+tn=TimeNum();
+
+loss=20;//Optimize("LOSS",60,20,80,20);
+minprofit=200;//Optimize("Minprofit",200,100,250,50);
+Cases = Optimize("Cases",1,0,7,1);
+//Cases = 2;
+if(cases == 0){Entrytime = 093000;GapFilter = 30;}
+if(cases == 1){Entrytime = 103000;GapFilter = 40;}
+if(cases == 2){Entrytime = 113000;GapFilter = 40;}
+if(cases == 3){Entrytime = 120000;GapFilter = 50;}
+if(cases == 4){Entrytime = 130000;GapFilter = 30;}//loss=IIf(DayOfWeek()==1,40,IIf(DayOfWeek()==2,80,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+if(cases == 5){Entrytime = 133000;GapFilter = 40;}//loss=IIf(DayOfWeek()==1,20,IIf(DayOfWeek()==2,60,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+if(cases == 6){Entrytime = 140000;GapFilter = 30;}//loss=IIf(DayOfWeek()==1,20,IIf(DayOfWeek()==2,60,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+if(cases == 7){Entrytime = 143000;GapFilter = 30;}//loss=IIf(DayOfWeek()==1,20,IIf(DayOfWeek()==2,60,IIf(DayOfWeek()==3,80,IIf(DayOfWeek()==4,60,IIf(DayOfWeek()==5,60,20)))));}
+
+
+TimeFrameSet(inDaily);
+	weeklyexpiry1 =IIf(DateNum()<1230901,DayOfWeek() == 4 OR (DayOfWeek() < 4 AND Ref(DayOfWeek(),1) > 4) OR (DayOfWeek() < 4 AND Ref(DayOfWeek(),1) <= DayOfWeek()),DayOfWeek() == 3 OR (DayOfWeek() < 3 AND Ref(DayOfWeek(),1) > 3) OR (DayOfWeek() < 3 AND Ref(DayOfWeek(),1) <= DayOfWeek()));
+	dayone2 = (Ref(weeklyexpiry1,-1));
+
+TimeFrameRestore();
+weeklyexpiry = TimeFrameExpand(weeklyexpiry1,inDaily,expandFirst);
+dayone = TimeFrameExpand(Ref(weeklyexpiry1,-1),inDaily,expandFirst);
+
+//EntryTime  = 103000;
+noentrytime=150000;
+ExitTime  = 152000;
+NextDayExitTime  = 092000;
+ 
+OpBar = ValueWhen(DateNum()!=Ref(DateNum(),-1),Open);
+		
+//IntradayGap = (Close/OpBar-1)*100;
+//GapFilter = Optimize("gapfilter",10,10,70,10);
+//GapCond = IntradayGap > GapFilter;
+
+bi = BarIndex();
+exitlastbar = bi == LastValue(bi-1);    
+//GapFilter = Optimize("gapfilter",40,20,80,20);
+nextday_exittime=092000;
+OpBar1=ValueWhen(TimeNum()<=120000,Open);
+
+if(cases<=3){
+IntradayGap = (Close/OpBar-1)*100;
+}//GapFilter = 50;//Optimize("gapfilter",10,10,90,10);
+else{
+IntradayGap = (Close/OpBar1-1)*100;
+}
+GapCond = IntradayGap > GapFilter;
+
+
+//weeklyexpiry AND
+Buy =   TimeNum()>Entrytime AND IIf(weeklyexpiry,TimeNum()<noentrytime,1) AND StrikePriceSelector == 1 AND Gapcond AND diwalidates;// AND type=="CE";
+BuyPrice = Close;
+StaticVarSet(NumToStr(DateNum(),1)+"_"+Name(),BuyPrice);
+Buyday = ValueWhen(Buy==1,DateNum());
+weeklyexpiryday=iif(IsNull(ValueWhen(weeklyexpiry,DateNum())),0,ValueWhen(weeklyexpiry,DateNum()));
+weeklyexpiryday=ValueWhen(weeklyexpiry,DateNum());
+Sell = 0;//IIf(		buyday==weeklyexpiryday,TimeNum()>=ExitTime OR DateNum()!=Ref(DateNum(),1),TimeNum()==NextDayExitTime) OR exitlastbar;
+//Sell = IIf(		buyday==weeklyexpiryday,TimeNum()>=ExitTime OR DateNum()!=Ref(DateNum(),1),DateNum()!=buyday AND TimeNum()>=NextDayExitTime) OR exitlastbar;
+
+//Buy = ExRem(Buy,Sell);
+//Sell = ExRem(Sell,Buy);
+
+//SellPrice = Close;//IIf(Ref(H,1)>strig, Max(Ref(Open,1),strig),Ref(Close,1));//Close;
+
+
+
+tn=TimeNum();
+dn = DateNum();
+priceatbuy=0;
+newDay = dn != Ref( dn, -1 );
+
+//newp=0;
+tradeCount=0;
+count=1;
+
+for( i = 0; i < BarCount; i++ )
+{	
+    // reset trade counter on the new day
+    if( newDay[ i ] ) tradeCount = 0;
+
+    if( priceatbuy == 0 AND Buy[ i ] AND tradecount<count )
+    {
+		buydate=dn[i];
+		priceatbuy = BuyPrice[ i ];
+		newp=priceatbuy;
+		temp1=temp2=0;
+		sl=0;//priceatbuy*(100-loss)/100;
+		tradecount=tradecount+1;
+		continue;
+    }
+    else	Buy[i]=0;
+    
+    if( priceatbuy > 0)// AND ((Close[i]-priceatbuy)/priceatbuy)*100>=100)
+    {
+		//highsincebuy = Max( High[ i ], highsincebuy );
+		
+		
+		if(((close[i]-newp)/newp)*100>=minprofit AND dn[i]==buydate AND temp1==0)//AND Sell[i]!=1)
+		{
+			temp1=1;
+			//pnew=high[i];
+			sl=close[i]*(100-loss)/100;
+			newp=close[i];
+			
+		}
+		if(temp1==1 AND Close[i]>newp)
+		{
+			sl=close[i]*(100-loss)/100;			
+			newp=close[i];
+
+		}
+		else if(close[i]<=sl AND temp1=1)
+		{
+			Sell[i]=1;
+			SellPrice[i]=close[i];
+		}
+		
+		if(weeklyexpiry[i] AND tn[i]>=exittime)
+		{
+			Sell[i]=1;
+			SellPrice[i]=Close[i];
+		}
+		
+		else if( tn[i]<=nextday_exittime AND dn[i]!=buydate )
+		{
+			Sell[i]=1;
+			SellPrice[i]=Close[i];
+		}
+	}
+	if(Sell[i]==1)
+	{	
+		count1=buydate=pnew=temp1=0;
+		priceatbuy=0;
+		sl=0;
+		newp=0;
+	}
+}
+
+
+SetCustomBacktestProc("");
+
+if( Status( "action" ) == actionPortfolio )
+{
+    bo = GetBacktesterObject(); //  Get backtester object
+    bo.PreProcess(); //  Do pre-processing (always required)
+    newday = Day() != Ref(Day(),-1);
+    count = 0;
+
+    for( i = 0; i < BarCount; i++ ) //  Loop through all bars
+    {
+        if(newday[i]==1)
+        {
+			count=0;
+        }
+        for( sig = bo.GetFirstSignal( i ); sig; sig = bo.GetNextSignal( i ) )
+        {
+            if( sig.IsEntry())
+            {
+                if( count< 2 )  /* input the number of max pos */
+                    count ++;
+                else
+                    sig.Price = -1 ; // ignore entry signal
+            }
+        }
+        bo.ProcessTradeSignals( i ); //  Process trades at bar (always required)
+    }
+    bo.PostProcess(); //  Do post-processing (always required)
+	//AddToComposite(bo.EquityArray,"6~~~BNLong_trailSL_afterminprofit_200_20_" + NumToStr(Entrytime,1) + "_" + NumToStr(GapFilter,1) ,"C",atcFlagDeleteValues | atcFlagEnableInPortfolio );			
+	//AddToComposite(bo.EquityArray,"5~~~BNLong_TrailSLonClose_"+ NumToStr(loss,1) + "_" + NumToStr(Entrytime,1) + "_" + NumToStr(GapFilter,1) ,"C",atcFlagDeleteValues | atcFlagEnableInPortfolio );			
+
+}
+
+
+
+
+
+inTrade = Flip(Buy, Sell); 
+
+
+//stopline = IIf(inTrade, HighestSince(Buy, H - multiplier*ATR( period )), Null);
+//Plot( Close,"Price",colorBlack,styleBar);
+
+//Plot(stopLine, "ATR Stop Loss", colorLightBlue, styleLine);
+
+
+Filter = 1;
+//AddColumn(PortEquity,"PortEquity",1.4);
+//AddColumn(WeeklyExpiryDate,"WED",1);
+AddColumn(O	,"open");
+AddColumn(high,"High");
+AddColumn(L,"low");
+AddColumn(close,"Close");
+AddColumn(OpBar1,"OpBar1");
+
+AddColumn(ValueWhen(TimeNum()>=120000,Open),"ValueWhen(TimeNum()>=120000,Open)");
+
+AddColumn(Buy,"Buy");
+AddColumn(intradaygap,"intradaygap");	
+AddColumn(gapcond,"gapcond");
+AddColumn(Sell,"Sell");
+//AddColumn(weeklyexpirydate,"weeklyexpiry");
+//AddColumn(tom,"tom");
+//AddColumn(IIf(tom>weeklyexpirydate,1,0),"diff");
+//AddColumn(weeklyexpirylastbar,"weeklyexpirylastbar");
+
+
+_SECTION_BEGIN("Price1");
+SetChartOptions(0,chartShowArrows|chartShowDates);
+_N(Title = StrFormat("{{NAME}} - {{INTERVAL}} {{DATE}} Open %g, Hi %g, Lo %g, Close %g (%.1f%%) {{VALUES}}", O, H, L, C, SelectedValue( ROC( C, 1 ) ) ));
+Plot( C, "Close", ParamColor("Color", colorDefault ), styleNoTitle | ParamStyle("Style") | GetPriceStyle() ); 
+_SECTION_END();
+
+_SECTION_BEGIN("ATR1");
+periods = Param( "Periods", 15, 1, 200, 1 );
+Plot( ATR(periods), _DEFAULT_NAME(), ParamColor( "Color", colorCycle ), ParamStyle("Style") );
+_SECTION_END();
