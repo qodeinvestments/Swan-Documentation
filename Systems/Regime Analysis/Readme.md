@@ -1,6 +1,6 @@
 ## UNDERSTANDING REGIMES
 
-This exercise was carried out to understand the how different regimes affect the P/L of our trading systems as we have observed during live execution and in a backtest.
+This exercise was carried out to understand how the different regimes affect the P/L of our trading systems, as we have observed during live execution and in a backtest.
 
 ## PROCESS 
 
